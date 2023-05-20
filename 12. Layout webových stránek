@@ -1,0 +1,48 @@
+Layout je rozvržením stránky, udržuje její logickou organizaci nejen pro počítač, ale hlavně pro uživatele, který vnímá jednotlivé části stránky jako logické celky (např. logo, navigační menu, vlastní obsah, zápatí a další). Každý tento celek by měl mít svou stálou pozici, aby jej mohl uživatel rychle a bez problémů najít očima, kdykoliv to potřebuje.
+Rámcový layout - Prehistorický layout. Využívá <frames>. Základem je rámcová struktura, která například definuje, že menu je v zúženém rámu vlevo nebo nahoře a po kliknutí na položku v menu se obsah načte do hlavního rámce.
+Výhody - Kód navigačního menu je na jediném místě, k jeho změně stačí změnit jediný soubor; Navigační menu stojí na místě, uživatel nemusí rolovat
+Nevýhody - omezená velikost; stránky nejsou indexovány některými vyhledávacími roboty; nelze vytvořit odkaz na konkrétní stránku; fulltextové vyhledavače, které indexují přímo dokumenty v rámcích, pak nabízejí přímé linky na ně
+
+Tabulkový layout - Layout, který využívá tabulky (<tables>). Než se rozšířily prohlížeče s podporou CSS pozicování, byla to jediná možnost, jak umístit nějaký obsah na stránce vedle sebe. Používá se často i dodnes.
+Výhody – jednoduchost, stačí trochu představivosti, zvážit jak prvky umístit a vypnout zobrazení okrajů; kompatibilita - tabulky pochází z dřívějších dob než CSS, jsou dokonce starší než rámce. Proto by se řádně navrená tabulka měla správně zobrazit i na velmi starých prohlížečích
+Nevýhody - neúspornost a nepřehlednost kódu. Dokola „TR TD TD TD“; pomalost, tabulka se v některých prohlížečích zobrazuje teprve až získají kompletní zdrojový kód, což znamená, že se stránka nezačne zobrazovat ihned , ale až po úplném načtení
+
+DIV/CSS layout - V dnešní době se jedná o nejpoužívanější způsob. Využívá se metoda CSS positioning. Jednotlivé bloky jsou obvykle vymezeny tagem div s atributem id nebo class
+Výhody - Rychlost a přehlednost; závislost vzhledu na platformě. Díky několika CSS definicím můžeme dosáhnout toho, aby se stránka zobrazila jinak na mobilu a jinak na monitoru; Pomocí CSS můžeme dosáhnout opravdu zajímavých vzhledů
+Nevýhody - Neúplná podpora ze strany prohlížečů; nepřehlednost CSS kódu, zatímco při pohledu na dvě vnořené tabulky je poměrně rychle zřejmé, jak bude výsledek vypadat, při pohledu na hromadu CSS definic trvá delší dobu
+
+Pružný vs. Pevný layout - Věc, kterou musíme brát v úvahu a to jakým způsobem se má měnit šířka stránky v závislosti na šířce okna prohlížeče. Obsah stránky nám může přetékat na výšku a nikomu to vadit nebude. Avšak pokud je stránka širší, považujeme za nevhodně navržené
+Pevná šířka (fixed) - Nejjednodušší způsob. V takovém případě zvolíme nějakou rozumnou šířku, do které se nám stránka nejspíš vejde a ta se se změnou velikosti okna nemění. Přestože je oblíbený, má i své nedostatky.
+Flexibilní šířka (fluid) - O něco je složitější. Zde se snažíme, aby se layout stránky co nejvíce přizpůsobil šířce okna. V takovém případě jednotlivé šířky zadáváme v procentech – tím docílíme toho, že se nám stránka roztáhne podle velikosti okna
+Responzivní - jedná se o způsob, který zaručí, že zobrazení stránky bude optimalizováno pro všechny druhy nejrůznějších zařízení (mobily, notebooky, netbooky, tablety atd.)
+
+Pixely - Obrazovkové body. Klasické rozlišení obrazovky je dnes 800 x 600 bodů nebo 1024 x 768. Pixely jsou základní délkovou jednotkou v HTML. Pokud je někde uveden nějaký rozměr (bez znaku procent), tak je chápán vždy jako počet pixelů.
+
+Procenta - v HTML se zapisují jako číslo a znak procenta. Není mezi tím mezera. Jako 100% se chápe šířka nebo výška nadřazeného elementu
+
+Dalšími může být např. pt (typografické body), mm (milimetry), in (palec), em (výška písmena M)
+Nejčastější chyby v grafice
+    Příliš mnoho grafiky, pohyblivé a extrémně výrazné prvky (snižuje přehlednost, odvádí pozornost od samotného textu)
+    Nevhodné pozadí a barvy (o Text musí být snadno čitelný, nepoužívejte křiklavé barvy – unavují oči, odlište barevně jednotlivé části stránky)
+    Špatně a málo strukturované texty (Používejte nadpisy, řezy písma, vytvářejte a oddělujte odstavce)
+    
+    
+    2) Jaké znáte délkové jednotky v jazyce HTML?
+    Pixely a procenta
+    
+    
+    
+Hlavička (header): Nachází se v horní části stránky a obvykle obsahuje logo, název webové stránky, navigační menu a případně další důležité odkazy.
+
+Navigační menu: Je umístěno v hlavičce nebo na bočním panelu a slouží k navigaci po různých částech stránky nebo mezi různými stránkami. Menu může být vodorovné nebo svislé.
+
+Obsahová oblast (content area): Je hlavní částí stránky, kde je umístěn hlavní obsah, jako jsou texty, obrázky, videa, formuláře apod. Obsahová oblast je často rozdělena do sloupců nebo bloků, aby byl obsah lépe organizován.
+
+Boční panel (sidebar): Může se nacházet na levé nebo pravé straně obsahové oblasti. Boční panel může obsahovat doplňkový obsah, jako jsou navigační odkazy, reklamy, menu, vyhledávání atd.
+
+Paticka (footer): Nachází se v dolní části stránky a obvykle obsahuje důležité odkazy, kontaktní informace, autorská práva a další informace. Může také obsahovat odkazy na sociální sítě nebo sitemapu stránek.
+
+Rezponzivita: Důležitou součástí moderního web designu je také rezponzivita. To znamená, že layout stránky se přizpůsobuje různým zařízením a velikostem obrazovky, aby byl obsah přehledný a dobře čitelný na počítačích, tabletech a mobilních telefonech.
+
+
+
