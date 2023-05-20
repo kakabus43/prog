@@ -1,0 +1,54 @@
+1) Popište funkci elektronické pošty. Jaké znáte protokoly el. pošty? Vysvětlete pojmy poštovní adresa, SMTP server, webmail, mailový klient – uveďte příklady mailových klientů.
+
+Elektronická pošta slouží především k zasílání zpráv, popřípadě menších souborů (dokumentů, obrázků) prostřednictvím internetové sítě mezi majiteli e-mailových schránek.
+
+Protokoly
+SMTP (simple mail transfer protocol) : Protokol, který se stará o přenos zprávy (e-mailu) přímo mezi odesilatelem a adresátem.
+IMAP (Internet Message Access Protocol), POP (Post office protocol): Protokoly, které zajišťují vzdálený přístup k e-mailové schránce pomocí e-mailového klienta.
+
+Poštovní adresa určuje zprávě jejího adresáta. Skládá se z místní části adresy, zavináče, internetové domény a většinou je zakončena zkratkou země.
+
+Webmail je webová aplikace, která umožňuje uživateli přístup k e-mailové schránce prostřednictvím internetového prohlížeče.
+
+Mailový klient je program, který umožňuje zobrazit vaší e-mailovou schránku i offline.
+Příklady: Microsoft Outlook a Mozilla Thunderbird
+
+
+2) K čemu slouží FTP? Uveďte příklady programů, které mohou sloužit jako klient služby FTP.
+
+FTP (file transfer protocol) je jeden z nejstarších internetových protokolů, které slouží především k přenosu velkého objemu dat. Nejčastěji se využívá ke sdílení multimédií a také ke zpracování účtů internetových stránek.
+Programů, které mohou sloužit jako klient ftp je spousta. Jako klient služby ftp může sloužit dokonce i všeobecně používaný průzkumník Windows. Dalšími potom jsou například WinSCP, FileZilla, Konqueror a Total Commander
+
+3) Jakou funkci má webový server? Jaké protokoly používá služba WWW? Vysvětlete pojem URL (webová adresa) – jakou má strukturu, co popisuje?
+
+Webový server je počítač odpovědný za vyřizování od klienta. Klient vysílá tyto požadavky pomocí webových prohlížečů. Požadavek je zasílán v podobě konkrétního URL.
+
+Protokoly
+HTTP (hypertext transfer protocol): protokol sloužící k výměně hypertextových dokumentů ve formátu .html
+HTTPS (hypertext transfer protocol secure): Jediný rozdíl od HTTP je, že pokud má URL na začátku HTTPS, prohlížeč používá k přenosu dat šifrování.
+URL (Uniform Resource Locator): Řetězec znaků, který slouží k přesné specifikace zdrojů informací (konkrétní internetová stránka). URL se skládá z domény, umístění na serveru a protokolu, který lze v dané situaci použít ke zpřístupnění požadované stránky.
+
+
+
+Samotný internet je komplexní a rozmanitý systém, který poskytuje různé základní služby. Zde je popis několika klíčových služeb internetu, které zahrnují elektronickou poštu, FTP a World Wide Web (WWW):
+
+Elektronická pošta (E-mail):
+Elektronická pošta je základním nástrojem pro komunikaci prostřednictvím internetu. Umožňuje vám posílat a přijímat textové zprávy, dokumenty, obrázky a další přílohy mezi různými uživateli. E-mailová adresa se skládá z uživatelského jména, symbolu @ a názvu poskytovatele služeb. Příkladem populárních poskytovatelů e-mailových služeb jsou Gmail, Outlook a Yahoo.
+
+File Transfer Protocol (FTP):
+FTP je protokol pro přenos souborů přes internet. Slouží k nahrávání a stahování souborů mezi počítačem uživatele a serverem. FTP je často používán pro správu webových stránek, sdílení souborů a vzdálený přístup k datům na serveru. Pro použití FTP se běžně používají specializované FTP klienty, které umožňují uživatelům procházet a manipulovat se soubory na serveru.
+
+World Wide Web (WWW):
+World Wide Web, běžně nazývaný web, je systém propojených hypertextových dokumentů a zdrojů, které jsou přístupné přes internet. Webové stránky jsou zobrazovány ve webovém prohlížeči a mohou obsahovat text, obrázky, videa, odkazy a další interaktivní prvky. Uživatelé mohou procházet webové stránky pomocí odkazů a vyhledávačů. Web poskytuje širokou škálu informací, služeb a aplikací, jako jsou sociální sítě, elektronický obchod, zpravodajství a mnoho dalšího.
+
+Vyhledávání na webu:
+Vyhledávače jsou nástroje, které umožňují uživatelům nalézt informace na webu. Nejpopulárnějším vyhledávačem je Google, ale existuje i mnoho dalších, jako jsou Bing, Yahoo a DuckDuckGo. Vyhledávače prohledávají internetové stránky a vytvářejí index, který umožňuje uživatelům vyhledávat pomocí klíčových slov. Výsledky vyhledávání zobrazují relevantní webové stránky podle relevance a popularity.
+
+Sociální sítě:
+Sociální sítě jsou platformy, které umožňují uživatelům vytvářet profily, sdílet obsah, komunikovat s ostatními uživateli a budovat online komunity. Příklady sociálních sítí zahrnují Facebook, Twitter, Instagram, LinkedIn a YouTube. Sociální sítě umožňují lidem sdílet osobní informace, fotografie, videa, příspěvky a interagovat s ostatními prostřednictvím komentářů, líbí se mi a sdílení.
+
+VoIP (Voice over Internet Protocol):
+VoIP je technologie, která umožňuje hlasovou komunikaci přes internet. Umožňuje lidem volat a komunikovat prostřednictvím hlasových hovorů pomocí internetového připojení. Služby VoIP zahrnují Skype, WhatsApp, Zoom a další. VoIP umožňuje levnější a flexibilnější telefonování ve srovnání s tradičními telefonními sítěmi.
+
+Online streaming:
+Online streamování se stalo stále populárnějším způsobem, jak sledovat videoobsah, poslouchat hudbu a streamovat živé události přes internet. Služby jako YouTube, Netflix, Spotify, Hulu a Twitch umožňují uživatelům přístup k široké škále obsahu, včetně filmů, televizních pořadů, hudebních alb, podcastů a živých videí.
