@@ -1,0 +1,73 @@
+Internet je celosvětový systém navzájem propojených počítačových sítí („síť sítí“), ve kterých mezi sebou počítače komunikují pomocí rodiny protokolů TCP/IP. Společným cílem všech lidí využívajících internet je bezproblémová komunikace (výměna dat).
+
+Nejznámější službou poskytovanou v rámci internetu je WWW (kombinace textu, grafiky a multimédií propojených hypertextovými odkazy) a e-mail (elektronická pošta), avšak nalezneme v něm i desítky dalších. Laici někdy spojují pojmy WWW a internet, i když WWW je jen jednou z mnoha služeb, které je na internetu možné nalézt.
+Je nutné Internet nějak koordinovat, aby nenastala úplní anarchie. Pro tyto účely existuje několik nadnárodních organizací, např. ICANN či IANA
+
+Server je obecné označení pro počítač, který poskytuje nějaké služby nebo počítačový program, který tyto služby realizuje. Nejznámější druhy serverů → webový server, souborový, databázový, tiskový, faxový, proxy, aplikační, herní
+Servery v internetu se mohou nacházet přímo ve firmách, školách nebo domácnostech, často jsou však umissťovány do specializovaných hostingových center, kde je zajištěn nepřetržitý dohled, záloežní zdroje elektrické energie atd.
+Servery mohou být pronajímány i částečně, např. pro poskytování některé služby (webhosting) případně jako virtuální stroje
+
+V rámci internetu mohou uživatelé využívat mnoho služeb. Služby jsou zajišťovány počítačovými programy a programy navzájem komunikují pomocí protokolů. Mezi základními jsou:
+WWW – systém webových stránek zobrazovaných pomocí webového prohlížeče (běžně používá protokol HTTP HyperText Transfer Protocol, pro větší bezpečnost HTTPS)
+E-mail – elektronická pošta (pro přenos zpráv používá protokol SMTP Simple Mail Transfer Protocol, pro komunikaci s poštovními programy používá protokol POP3 Post Office Protocol nebo IMAP Internet Message Access Protocol)
+Instant messaging – online (přímá, živá) komunikace mezi uživateli (používá různé protokoly)
+VoIP – telefonování pomocí internetu
+FTP – File Transfer Protocol přenos souborů
+DNS – Domain Name Systemdomény (systém jmen počítačů pro snadnější zapamatování)
+služební protokoly DHCP Dynamic Host Configuration Protocol atd.
+
+1) Co to je internet? Popište jeho architekturu. Co to je server?
+
+Internet je globální síť propojených počítačů a zařízení, která umožňuje komunikaci a výměnu informací mezi uživateli z různých částí světa. Je to decentralizovaná síť, což znamená, že neexistuje jediný centrální bod kontroly. Místo toho je internet složen z mnoha propojených sítí, které spolu komunikují prostřednictvím standardizovaných protokolů.
+Architektura internetu je založena na konceptu klient-server. Klient je obvykle koncové zařízení, jako je osobní počítač, smartphone nebo tablet, který žádá o služby nebo zdroje. Server je specializovaný počítač, který poskytuje tyto služby nebo zdroje na vyžádání klienta. Klient a server komunikují prostřednictvím síťových protokolů, jako je například protokol HTTP (Hypertext Transfer Protocol) pro přenos webových stránek.
+
+Server je počítačový systém nebo program, který je určen k poskytování různých služeb nebo zdrojů ostatním počítačům (klientům) v síti. Jeho hlavním úkolem je odpovídat na žádosti klientů a poskytovat požadované informace nebo služby.
+Existuje mnoho různých typů serverů, které se specializují na různé úkoly. Například:
+
+Webový server: Poskytuje webové stránky a obsah prohlížečům klientů.
+E-mailový server: Zajišťuje příjem, odesílání a ukládání e-mailových zpráv.
+Souborový server: Umožňuje sdílení a správu souborů mezi různými zařízeními v síti.
+Databázový server: Slouží k ukládání a správě databází a poskytování přístupu k datům.
+Tyto servery jsou vždy aktivní, připojené k internetu a připravené zpracovat žádosti klientů. Serverová architektura je základním stavebním kamenem internetu, umožňuje poskytování různých služeb a zdrojů, které jsou přístupné uživatelům z celého světa.
+
+
+2) Vyjmenujte co nejvíce způsobů, jak se dá v dnešní době připojit počítač k internetu. Popište výhody a nevýhody těchto připojení.
+ChatGPT
+Existuje několik způsobů, jak se dnes připojit počítač k internetu. Zde je seznam nejběžnějších připojovacích metod s jejich výhodami a nevýhodami:
+
+Připojení přes širokopásmový (broadband) internet:
+
+Výhody: Rychlé a stabilní připojení, které umožňuje rychlý přenos dat. Široká dostupnost v mnoha oblastech.
+Nevýhody: Vyžaduje kabelovou nebo DSL linku. Připojení může být omezeno geograficky, zejména v odlehlých oblastech.
+
+Mobilní připojení:
+
+Výhody: Flexibilita a mobilita, umožňuje připojení k internetu kdekoli s dostatečným signálem mobilní sítě. Vhodné pro použití na cestách.
+Nevýhody: Rychlost a dostupnost signálu se mohou lišit v závislosti na místě a síti poskytovatele. Omezený datový limit nebo vysoké náklady na datový přenos.
+Wi-Fi:
+
+Výhody: Bezkabelové připojení umožňuje pohodlné připojení více zařízení k jednomu přístupovému bodu. Flexibilita v rámci dosahu sítě.
+Nevýhody: Omezený dosah signálu, zejména ve větších domech nebo budovách. Zabezpečení Wi-Fi sítí může vyžadovat dodatečná opatření.
+
+Připojení přes optický kabel (Fiber):
+
+Výhody: Extrémně vysoká rychlost a šířka pásma, stabilní připojení i při velkém provozu. Nízká odezva (latence).
+Nevýhody: Omezená dostupnost, obvykle ve vybraných městských oblastech. Vyšší náklady ve srovnání s jinými technologiemi.
+
+Satelitní připojení:
+
+Výhody: Připojení k internetu kdekoli, bez ohledu na geografickou polohu. Dostupnost v odlehlých nebo venkovských oblastech.
+Nevýhody: Vyšší latence (zpomalení odezvy) ve srovnání s jinými technologiemi. Omezené rychlosti a datové limity. Vyšší náklady na instalaci a službu.
+
+Připojení přes kabelovou televizi (DOCSIS):
+
+Výhody: Rychlé a stabilní připojení, obvykle s vysokou šířkou pásma. Možnost kombinovat internet a televizní služby v jednom balíčku.
+Nevýhody: Dostupnost omezena na oblasti s kabelovou infrastrukturou. Rychlost a výkon mohou být ovlivněny sdílením s ostatními uživateli ve stejné síti.
+Je důležité zvážit individuální potřeby a omezení, jako je dostupnost služeb v dané oblasti, rychlost a spolehlivost připojení a finanční náklady, při výběru nejvhodnějšího připojení k internetu.
+
+
+
+
+
+
+Regenerate response
