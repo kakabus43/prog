@@ -1,0 +1,78 @@
+Počítačová grafika je z technického hlediska obor informatiky, který používá počítače k tvorbě umělých grafických objektů a dále také na úpravu zobrazitelných a prostorových informací, nasnímaných z reálného světa (například digitální fotografie a jejich úprava, filmové triky). Z hlediska umění jde o samostatnou kategorii grafiky.
+
+Existují 2 způsoby, jakým počítače ukládají a zpracovávají obrazové informace a to buď vektorovou, nebo rastrovou grafikou. Vektorový obrázek je složen ze základních, přesně definovaných útvarů, jako jsou body, přímky, křivky a mnohoúhelníky. Naproti tomu rastrová grafika popisuje obrázek jako řádky a sloupce pixelů.Pokud přiblížíme rastrový obrázek, začne být patrný rastr a obrázek tak ztrácí na kvalitě. Naopak při přiblížení ve vektorové grafice, zůstane obrázek ostrý a jasný.
+
+3D grafika je příbuzná vektorové 2D grafice. Také pracuje se souřadnicemi bodů a informacemi o úsečkách, křivkách a plochách, ale data jsou uložena ve trojrozměrném souřadnicovém systému. Z těchto trojrozměrných dat reprezentujících tělesa je potom « renderován » 2D obrázek.
+
+Ve vektorové grafice je obrázek složen ze základních geometrických útvarů, jako jsou body, přímky, křivky a mnohoúhelníky. Vektorová grafika se používá zejména v počítačové oblasti pro tvorbu ilustrací, diagramů a počítačových animací.
+Výhody - Je možné libovolné zmenšování nebo zvětšování obrázku bez ztráty kvality; Je možné pracovat s každým objektem v obrázku odděleně; Výsledná paměťová náročnost obrázku je obvykle mnohem menší než u rastrové grafiky
+Nevýhody - Oproti rastrové grafice zpravidla složitější pořízení obrázku. V rastrové grafice lze obrázek snadno pořídit např. pomocí fotoaparátu; Překročí-li složitost grafického objektu určitou mez, začne být vektorová grafika náročnější na operační paměť a procesor než grafika bitmapová
+
+V rastrové, jinak taky bitmapové grafice je obrázek popsán pomocí jednotlivých barevných bodů (pixelů). Body jsou uspořádány do mřížky. Každý bod má určen svou přesnou polohu a barvu. Tento způsob popisu obrázků je použit např. v televizi nebo v digitálním fotoaparátu. Kvalitu obrázku ovlivňuje především rozlišení a barevná hloubka
+Výhody - Pořízení obrázku je velmi snadné například pomocí fotoaparátu
+Nevýhody - Velikost obrázku může dosahovat i několik desítek megabytů; Změna velikosti vede ke zhoršení kvality obrázku
+
+Jaké znáte formáty pro ukládání rastrové grafiky? BMP, GIF, HDP, JPEG
+
+Nejznámější programy - Adobe photoshop, Corel DRAW, Gimp, Windows Malování
+
+Barevný prostor → množina barev, ve které existuje jakýsi systém souřadnic, který dovoluje se na jednotlivé barvy odkazovat pomocí čísel. Jinými slovy, je to jakási skupina barev a konkrétní způsob jejich číselného kódování.
+
+Barevný model RGB (Red-Green-Blue = červená-zelená-modrá) využívá aditivního míchání barev, kdy se míchá vyzařované světlo. Tento barevný model je nejčastěji používán tam, kde se obraz vyzařuje, tedy televizory, monitory, projektory apod.
+
+Naopak barevný model CMYK (Cyan-Magenta-Yellow-Black = azurová-purpurová-žlutá-černá) je založen na subtraktivním míchání barev, kdy se od sebe barvy odečítají a omezuje se tak barevné spektrum odrážené od povrchu. Barevný model CMYK se používá u reprodukčních zařízení, která tvoří obraz mícháním pigmentů, což jsou prakticky všechny tiskárny, kde se tisknou postupně všechny barvy přes sebe.
+
+
+
+Definice počítačové grafiky: obor zabývající se vytvářením, zpracováním a zobrazováním grafických prvků pomocí počítačů.
+
+Vstupní zařízení: klávesnice, myš, grafické tablety, digitální fotoaparáty - slouží k zadávání grafických dat.
+
+Zpracování dat: algoritmy a výpočetní techniky pro manipulaci s grafickými daty, včetně matematických modelů a operací jako rotace, změna velikosti, osvětlení atd.
+
+Výstupní zařízení: monitory, tiskárny, projekční zařízení - zobrazují zpracovaná grafická data uživatelům.
+
+Techniky a metody: rastrizace, vektorová grafika, texturování, stínování - základní postupy v počítačové grafice.
+
+Význam počítačové grafiky: používá se ve filmech, videohrách, designu, architektuře, vědeckém výzkumu a dalších oblastech.
+
+Vývoj počítačové grafiky: historie a pokrok v oboru.
+
+Pokročilé aplikace: virtuální reality, simulace - rozšíření počítačové grafiky do nových dimenzí a způsobů interakce.
+
+
+další podbody:
+Historie počítačové grafiky a její vývoj:
+
+Počátky počítačové grafiky sahají do 50. let 20. století, kdy byly vytvořeny první počítačové systémy pro generování jednoduchých grafických obrázků.
+
+V 60. a 70. letech se objevily první grafické uživatelské rozhraní, která umožňovala interakci s počítačem pomocí grafických prvků, jako jsou ikony a okna.
+V 80. letech došlo k rozvoji 2D grafiky a vzniku prvních počítačových her a animovaných filmů.
+V 90. letech se počítačová grafika posunula do 3D prostoru a začaly se používat pokročilé algoritmy a techniky, které umožnily realističtější a detailnější vizuální efekty.
+V posledních letech se počítačová grafika stala nezbytnou součástí filmového průmyslu, videoher, designu, architektury a mnoha dalších oblastí. Technologie se neustále zdokonalují a umožňují vytváření fotorealistických vizuálních scén.
+
+Základní principy zpracování grafických dat, včetně algoritmů a matematických modelů:
+
+Grafická data jsou zpracovávána pomocí algoritmů, které provádějí různé operace, jako rotace, změna velikosti, osvětlení a stínování.
+Matematické modely se používají k popisu vlastností grafických objektů. Například v 3D grafice se často využívají trojúhelníky a jejich geometrické vlastnosti.
+Základní principy zpracování zahrnují transformace (přemístění, rotace, škálování), rasterizaci (převod vektorových dat na rastr), texturování (přidání textur na povrch objektu) a stínování (vytváření stínů pro dosažení realismu).
+
+Význam počítačové grafiky v různých oblastech, například ve filmovém průmyslu, videohrách, designu apod.:
+
+Ve filmovém průmyslu se počítačová grafika používá pro tvorbu vizuálních efektů, animace postav a prostředí a pro úpravu a retušování obrazu.
+V videohrách je počítačová grafika klíčovou součástí, umožňuje vytvářet detailní 3D světy, realistické postavy a efekty.
+V designu se počítačová grafika využívá pro tvorbu reklamních materiálů, log, webových stránek a dalších grafických prvků.
+V architektuře se počítačová grafika využívá pro vizualizaci budov a prostředí, umožňuje architektům prezentovat své návrhy a plány klientům.
+Počítačová grafika má také význam ve vědeckém výzkumu, například v medicíně pro vizualizaci anatomie a simulaci chirurgických zákroků.
+
+Důležité techniky a metody v počítačové grafice, jako je rastrizace, texturování a stínování:
+
+Rastrizace je proces převodu vektorových grafických objektů na rastr, který je složen z pixelů, což umožňuje jejich zobrazení na obrazovce nebo tisku.
+Texturování je technika, která umožňuje přidat textury nebo vzory na povrch objektů, čímž získávají na věrohodnosti a detailnosti.
+Stínování je proces vytváření stínů pro grafické objekty, což přispívá k realismu a pocitu hloubky v obraze.
+Další důležité techniky a metody zahrnují osvětlení, anti-aliasing (odstranění "stupňovitosti" v obraze), ray tracing (simulace šíření světla) a mnoho dalších.
+
+Pokročilé aplikace počítačové grafiky, jako jsou virtuální reality a simulace:
+
+Virtuální reality (VR) umožňuje uživatelům ponořit se do digitálního prostředí a interagovat s ním. VR využívá pokročilé vizuální efekty a technologie pro vytvoření iluze skutečného světa.
+Simulace se používají v různých oblastech, například ve výcviku pilotů, lékařském výzkumu, architektonickém návrhu nebo modelování přírodních jevů. Simulace využívají pokročilé grafické algoritmy a výpočetní techniky pro dosažení přesnosti a realismu.
