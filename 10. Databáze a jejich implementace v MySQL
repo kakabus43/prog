@@ -1,0 +1,73 @@
+Databáze a jejich implementace v MySQL
+
+Databáze:
+Soubor, který je spravován Databázovým systémem (DBMS)
+Informace, které jsou organizovány do tabulek, řádků a sloupců a mohou být použity pro ukládání a správu různých typů dat
+například informací o zákaznících, produktech, objednávkách atd.
+
+MySQL:
+Relační databáze - jsou vytvořeny na základě relačního modelu - data uložena v tabulkách
+tyto tabulky jsou pak propojeny pomocí cizích klíčů, které definují vazby mezi jednotlivými tabulkami
+otevřený a volně šiřitelný relační databázový systém
+Jazyk - SQL
+často se používá pro webové aplikace a další aplikace, které vyžadují práci s databázemi
+jednoduchost, spolehlivost a účinnost
+
+Může být použito na různých operačních systémech (Windows, Linux, Unix a MacOS)
+podporuje mnoho programovacích jazyků, jako je PHP, Java, C++, C# a další, což umožňuje jednoduchou integraci s jinými aplikacemi
+
+Implementace databáze v MySQL:
+
+1) Vytvoření databáze: Při prvním spuštění MySQL serveru je nutné vytvořit novou databázi nebo se připojit ke stávající.
+2) Tvorba tabulek: Po vytvoření databáze je nutné vytvořit tabulky, které budou uchovávat data. Tabulky lze definovat pomocí SQL příkazů 
+CREATE TABLE.
+3) Přidávání dat do tabulek: Po vytvoření tabulek můžete pomocí SQL příkazů INSERT vkládat data do tabulek.
+4) Úprava dat: Pokud je nutné aktualizovat nebo odstranit data z tabulek, můžete použít SQL příkazy UPDATE nebo DELETE.
+5) Výběr dat: Pomocí SQL příkazu SELECT můžete vybírat data z tabulek a zobrazovat je na obrazovce nebo je ukládat do souboru.
+6) Správa oprávnění: Správu oprávnění lze provést pomocí SQL příkazů GRANT a REVOKE. Tyto příkazy umožňují nastavit oprávnění k jednotlivým tabulkám a akcím (např. SELECT, INSERT, UPDATE a DELETE).
+
+
+Samotný termín "databáze" se obecně odkazuje na organizovaný soubor dat, který je uspořádaný a strukturovaný tak, aby umožnil efektivní ukládání, správu a vyhledávání informací. Databáze se používají v mnoha oblastech, jako je správa podnikových dat, webové aplikace, elektronické obchody a mnoho dalších.
+
+MySQL je relační databázový systém (RDBMS), který je široce používán vývojáři a organizacemi pro správu a manipulaci s daty. Zde je srozumitelné vysvětlení některých klíčových pojmů a principů spojených s databázemi a jejich implementací v MySQL:
+
+Tabulky: Databáze v MySQL organizuje data do tabulek. Tabulka je struktura, která se skládá z řádků a sloupců. Každý řádek v tabulce reprezentuje jednu sadu dat, zatímco každý sloupec představuje konkrétní atribut (např. jméno, věk) dat.
+
+Schéma databáze: Schéma popisuje strukturu databáze, včetně definice tabulek, sloupců, vztahů mezi tabulkami a omezení. Jedna databáze může obsahovat více schémat.
+
+Primární klíč: Primární klíč je unikátní identifikátor pro každý záznam v tabulce. Pomáhá identifikovat řádek a zajistit jedinečnost dat. V MySQL se primární klíč často definuje jako sloupec s nastaveným omezením "PRIMARY KEY".
+
+Cizí klíč: Cizí klíč vytváří vztahy mezi tabulkami. Je to sloupec v jedné tabulce, který odkazuje na primární klíč v jiné tabulce. Pomáhá udržovat referenční integritu dat.
+
+Dotazovací jazyk SQL: SQL (Structured Query Language) je jazyk používaný pro manipulaci s daty v MySQL. Pomocí SQL můžete vytvářet, číst, aktualizovat a mazat data z databáze. Příklady SQL příkazů jsou SELECT (pro čtení dat), INSERT (pro vkládání nových dat), UPDATE (pro aktualizaci dat) a DELETE (pro mazání dat).
+
+Indexy: Indexy jsou struktury používané k rychlému vyhledávání dat v databázi. Vytvoření indexu na určitý sloupec zlepšuje výkon vyhledávání a dotazování.
+
+Normalizace: Normalizace je proces návrhu databáze, který minimalizuje redundanci a zajišťuje konzistenci dat. Pomáhá předejít problémům, jako je ztráta dat a nekonzistence.
+
+Triggery a procedury: MySQL umožňuje definovat triggery a procedury, což jsou části kódu, které se automaticky spouští při určitých událostech nebo vyvolávání.
+
+Toto jsou pouze základní principy databází a implementace v MySQL. Existuje mnoho dalších pokročilých funkcí a konceptů, které lze použít pro optimalizaci a správu dat v MySQL.
+
+
+
+
+Databáze je jako velká schránka, kde ukládáme naše informace. Může to být jakákoliv informace, například jména, čísla nebo obrázky.
+
+Databáze v MySQL je speciální druh schránky, která umí organizovat naše informace tak, aby byly snadno přístupné a spravovatelné.
+
+V MySQL používáme tabulky k organizaci našich informací. Tabulka je jako velká tabulka s řádky a sloupci. V řádcích máme jednotlivé záznamy (informace), a ve sloupcích máme různé vlastnosti těchto záznamů (například jméno, věk nebo barvu).
+
+Primární klíč je jako speciální štítek, který přidělujeme každému záznamu, aby ho snadno identifikoval. Je to jako unikátní číslo, které říká, který záznam je který.
+
+Cizí klíč je jako malá šipka, která ukazuje z jedné tabulky do druhé. Pomáhá nám spojit informace z různých tabulek dohromady.
+
+SQL je zvláštní jazyk, kterým můžeme mluvit s naší MySQL databází. Používáme ho k získání informací, přidávání nových informací, upravování nebo mazání stávajících informací.
+
+Index je jako obsah knihy. Pomáhá nám najít informace rychleji, protože obsahuje klíčová slova, která ukazují na stránky, kde jsou tyto informace uloženy.
+
+Normalizace je jako uklízení naší schránky. Pomáhá nám udržet věci uspořádané a čisté. Normalizace nám pomáhá odstranit opakující se informace a zajistit, aby naše data byla konzistentní a správně uspořádaná.
+
+Triggery a procedury jsou jako malé programy, které se spustí, když se něco stane. Například, když přidáme novou informaci, může se spustit trigger nebo procedura, která udělá nějakou speciální akci, například odeslat email nebo aktualizovat jinou informaci.
+
+
