@@ -1,0 +1,90 @@
+Základní deska (motherboard) - představuje základní hardware většiny počítačů. Hlavním účelem základní desky je propojit jednotlivé součástky počítače do fungujícího celku a poskytnout jim elektrické napájení. Postupem času se funkce základní desky rozšiřovala v tom, že sama začínala obsahovat některé součástky počítače, které se do ní dříve musely zapojovat zvlášť
+Procesor - základní součástí počítače. V současné době máme pod tímto pojmem většinou na mysli mikroprocesor, nebo také CPU, anglicky Central Processing Unit), tedy velmi složitý číslicový integrovaný obvod, provádějící strojové instrukce, ze kterých je složen počítačový program umístěný v operační paměti počítače
+Paměťové karty - (RAM - Random Access Memory) elektronická paměť, která umožňuje přístup k libovolné části ve stálém čase bez ohledu na její fyzické umístění; volatilní – při vypnutí napájení se informace smaže
+Pevný disk - (HDD - Hard Disk Drive) zařízení, které se používá v počítačích a ve spotřební elektronice (např. videorekordéry) k dočasnému nebo trvalému uchovávání většího množství dat pomocí magnetické indukce
+Grafické karty, zvuková karta, síťová karta, TV karta, optická mechanika, USB výstupy
+
+
+Procesor (CPU):
+
+Je srdcem počítače a provádí všechny výpočty a operace.
+Skládá se z jádra, vyrovnávací paměti a řadiče.
+Existují různé typy procesorů, jako jsou jednojádrové, vícejádrové a speciální procesory pro grafiku.
+
+Paměť (RAM):
+
+Slouží k dočasnému ukládání dat a instrukcí, se kterými procesor pracuje.
+Čím větší je kapacita RAM, tím více dat může být rychle dostupných.
+Paměť je často vyjádřena v gigabytech (GB) nebo terabytech (TB).
+
+Pevný disk (HDD nebo SSD):
+
+Slouží k trvalému ukládání dat na počítači.
+HDD používá magnetické disky a rotující čtecí a zapisovací hlavy.
+SSD používá flash paměť a je rychlejší a spolehlivější než HDD, ale obvykle je dražší na gigabajt.
+
+Základní deska (Motherboard):
+
+Je hlavní spojovací a řídicí jednotkou počítače.
+Obsahuje sloty pro procesor, paměť, grafickou kartu a další rozšiřující karty.
+Zajišťuje komunikaci mezi všemi komponenty počítače.
+
+Grafická karta (GPU):
+
+Slouží k zpracování a vykreslování grafiky a videa.
+Používá se při hraní her, sledování videí ve vysokém rozlišení a provádění graficky náročných úloh.
+Některé grafické karty mají vlastní paměť nazývanou VRAM.
+
+Zdroj napájení (Power Supply):
+
+Poskytuje elektrický proud potřebný pro provoz počítače.
+Musí mít dostatečnou kapacitu pro všechny komponenty počítače.
+Existují různé výkony a typy zdrojů napájení.
+
+Chlazení:
+
+Pomáhá udržovat teplotu komponent počítače v přijatelných mezích.
+Používá se ventilátor, chladič a teplotní pasty.
+Některé výkonné systémy mohou mít i vodní chlazení.
+
+Monitor:
+
+Vizuálně zobrazuje výstup z počítače.
+Existují různé typy monitorů, jako jsou LCD, LED, IPS nebo OLED, s různými rozlišeními a velikostmi.
+
+Klávesnice a myš:
+
+Slouží k ovládání počítače a vstupu dat.
+Klávesnice umožňuje psaní textu a ovládání funkcí počítače.
+Myš poskytuje pohyb a umožňuje výběr a ovládání objektů na obrazovce.
+
+Síťová karta:
+
+Připojuje počítač k síti, buď pomocí ethernetového kabelu nebo bezdrátově.
+Umožňuje přístup k internetu a sdílení souborů mezi počítači v síti.
+
+Zde je podrobné vysvětlení základní desky a procesoru (CPU) včetně jejich základních složek:
+
+Základní deska (Motherboard):
+
+Základní deska je hlavní součástí počítače, která slouží jako platforma pro instalaci a propojení ostatních hardwarových komponentů.
+Obsahuje různé sloty a konektory pro připojení procesoru, paměti, grafické karty, úložiště a dalších rozšiřujících karet.
+Základní deska obsahuje také řadiče a čipy pro správu a koordinaci komunikace mezi jednotlivými komponentami.
+Důležitými složkami základní desky jsou:
+Socket: Specifický typ konektoru, který umožňuje připojení procesoru. Existují různé typy socketů, jako je například LGA nebo AM4, které jsou kompatibilní s různými typy procesorů.
+Sloty paměti (DIMM nebo SO-DIMM): Slouží k připojení paměťových modulů (RAM). Tyto sloty mají obvykle určitou rychlost a kapacitu paměti, kterou podporují.
+Rozšiřující sloty (PCIe, PCI nebo M.2): Tyto sloty umožňují připojení dalších rozšiřujících karet, jako je grafická karta, zvuková karta, síťová karta nebo SSD.
+Čipset: Je součástí základní desky a zajišťuje správu a komunikaci mezi různými komponentami. Čipset obsahuje různé řadiče, například pro USB, SATA nebo Ethernet.
+
+Procesor (CPU):
+
+Procesor je centrální jednotka počítače, která provádí všechny výpočty a operace.
+Základními složkami procesoru jsou:
+Jádro (Core): Procesor může obsahovat jedno nebo více jader, která jsou schopna provádět výpočty nezávisle na sobě. Vícejádrové procesory umožňují efektivnější zpracování úloh a zvyšují výkon.
+Vyrovnávací paměť (Cache): Je rychlá paměť, která slouží k dočasnému ukládání dat, ke kterým procesor často přistupuje. Vyšší úrovně cache zlepšují přístup k datům a snižují latenci.
+Řadič (Controller): Řadič je část procesoru, která kontroluje a koordinuje přístup k různým komponentám, jako je paměť, úložiště, grafická karta atd.
+Procesory jsou často hodnoceny podle různých parametrů:
+Frekvence: Udává počet cyklů, které procesor dokáže provést za sekundu. Vyšší frekvence obvykle znamená vyšší výkon.
+Počet jader: Vyšší počet jader umožňuje provádět více úloh současně. Například čtyřjádrový procesor může provádět čtyři úkoly paralelně.
+Hyper-threading nebo SMT (Simultaneous Multi-Threading): Tato technologie umožňuje jednomu jádru provádět dvě úlohy najednou, což zvyšuje výkon v některých situacích.
+Architektura: Procesory jsou navrženy různými architekturami, jako je x86 (Intel nebo AMD) nebo ARM. Každá architektura má své vlastnosti a výhody v různých oblastech.
