@@ -1,0 +1,70 @@
+1) Jak se ukládají data v počítači? Vysvětlete princip této činnosti.
+
+-Mechanicky (děrné štítky), elektrostaticky/elektrodynamicky (RAM, flashdisky, externí disky), elektromagneticky (hard disk), biochemicky/opticky (CD, DVD, Bluray), jiné
+-Data se ukládají na Hard disk. Fyzicky se jedná o proces, při kterém během záznamu protéká hlavičkou magnetizační proud, který disk magnetizuje. Hlaviček je hned několik a každá se nachází mezi plotnami, kterých je také více pod sebou. Každá plotna na sobě má tenkou magnetickou vrstvu, do které se pomocí magnetické indukce zapisují data. Plotny se neustále velmi rychle otáčejí a díky tomu proces probíhá okamžitě
+-Povrch disku je při formátování (příprava disku pro ukládání dat) rozdělen do sektorů, které mají přesně určené místo. Do těchto sektorů se již ukládají konkrétní data. Data zde jsou umístěna v soustředných kruzích - stopách, přičemž nultá stopa je na okraji. Kapacita každého sektoru je stejná. Stopy jsou na začátku netknuty. Když hlavička poprvé nad stopou projede, polarizuje určitou její část a pak ve chvíli kdy je potřeba znova tuto část přečíst hlavička nad ní opět přejede (například když uložíte soubor a později ho otevřete)
+
+2) Co je souborový systém, popište jeho uspořádání a funkci
+
+-Souborový systém je označení pro způsob organizace dat ve formě souborů, tak aby k nim bylo možné snadno přistupovat. Základní ideou souborového systému je tedy zpřístupnění a ukládání dat pomocí hierarchicky organizovaného systému adresářů a souborů
+-Souborové systémy jsou uloženy na vhodném typu elektronické paměti, která je umístěna přímo v počítači (pevný disk, CD, USB…) nebo může být zpřístupněna pomocí počítačové sítě.
+-Pevné disky jsou obvykle logicky rozděleny na oddíly (partition), takže souborový systém se rozkládá jen na konkrétním oddílu a ne na celém disku. To umožňuje mít na pevném disku více nezávislých souborových systémů, které mohou být různého typu
+-Informace uložené v systému souborů dělíme na metadata a data. Metadata popisují strukturu systému souborů a nesou další služební a doplňující informace, jako je velikost souboru, čas poslední změny souboru, seznam bloků dat, které tvoří vlastní soubor atd. Pojmem data pak míníme vlastní obsah souboru, který můžeme přečíst, když soubor otevřeme.
+-Software, který realizuje souborový systém, bývá obvykle součástí operačního systému. Většina operačních systémů podporuje několik různých souborových systémů. V Microsoft Windows nalezneme podporu pro souborové systémy FAT a NTFS a ISO 9660 pro ukládání souborů na CD a DVD
+-Fragmentace je jev, kdy nejsou data uložena na nějakém médiu souvisle (elektronická paměť, pevný disk). Nesouvislé uložení pak může způsobit zpomalení práce s daty nebo nemožnost s fragmentovaným úsekem pracovat. Z tohoto důvodu má Windows 7 precedentně zavedenou defragmentaci disku jednou týdně
+
+3) Popište historický vývoj zařízení pro ukládání dat od prehistorie až po současnost. Jaké jsou nejnovější trendy v této oblasti?
+
+-Lidé ukládají informace od nepaměti. V pravěku malovali na skály, ryli do kostí a do dřeva. Ve starověku používali různé destičky - z kamene, hlíny či dřeva. S přibývajícím časem rostly nároky a potřeba ukládání většího množství informací
+-Posledních 500 let ukládají lidé informace především na papír. Stejně jako papír nahradil předchozí prostředníky pro ukládání, je papír dnes nahrazován elektronickou pamětí
+-V současné době probíhá velice intenzivně digitalizace - převod dokumentů z papírové do elektronické podoby. Informace tedy nejčastěji ukládány na pevné disky, CD, USB, SSD, paměťové karty atd.
+
+4) Co to je webový vyhledávač? Znáte nějaké? Dokážete popsat princip jeho fungování?
+
+-služba, která umožňuje na internetu nalézt dané webové stránky, stačí zadat do vyhledávacího pole klíčové slovo či frázi a webový prohlížeč nalezne ve své databázi výsledky pro dané zadání
+-Obecně většina internetových vyhledávačů pracuje ve čtyřech krocích
+1. procházení webových stránek
+2. vytvoření databáze výskytu slov
+3. indexování
+4. poskytování odpovědí na dotazy
+
+
+Pevný disk (Hard Disk Drive - HDD):
+Pevný disk je jedním z nejstarších a nejpoužívanějších typů zařízení pro ukládání dat. Skládá se z jednoho nebo více magnetických kotoučů, které rotují rychlou rychlostí. Na těchto kotoučích jsou magnetické hlavy, které čtou a zapisují data na povrch disku. Pevné disky jsou běžně dostupné ve velikostech od několika gigabajtů (GB) po několik terabajtů (TB). Jsou relativně levné a mají vysokou kapacitu, ale jsou náchylnější na poškození způsobené nárazy.
+
+Solid State Drive (SSD):
+SSD je modernější typ zařízení pro ukládání dat. Místo magnetických kotoučů používá SSD integrované obvody s polovodičovou pamětí. SSD jsou rychlejší než pevné disky, mají nižší spotřebu energie a jsou méně náchylné na fyzická poškození. Tyto disky jsou obvykle dražší než pevné disky, ale nabízejí vyšší výkon a spolehlivost. Kapacita SSD se pohybuje od několika desítek gigabajtů až po několik terabajtů.
+
+Hybridní disky:
+Hybridní disky kombinují výhody pevného disku a SSD. Mají v sobě jak magnetický disk, tak malé množství SSD. Data, ke kterým se často přistupuje, jsou ukládána na SSD části disku, což zajišťuje vyšší rychlost čtení a zápisu. Méně často používaná data jsou uložena na magnetické části disku. Tento typ disku nabízí poměrně dobrý výkon za rozumnou cenu.
+
+Optické disky:
+Optické disky jsou média pro ukládání dat, jako jsou CD (Compact Discs), DVD (Digital Versatile Discs) nebo Blu-ray disky. Optické disky mají vyšší kapacitu než pevné disky, ale jsou pomalejší při čtení a zápisu dat. Tyto disky jsou často používány pro distribuci software, filmů a hudby.
+
+Flash paměťové zařízení:
+Flash paměťová zařízení jsou malá, přenosná a vyměnitelná zařízení pro ukládání dat. Patří sem například USB flash disky, paměťové karty (SD karty, microSD karty) a solid state disky (SSD) ve formátu M.2 nebo PCIe. Flash paměťová zařízení používají technologii flash paměti, která je rychlá, spolehlivá a nevyžaduje žádné pohyblivé části. Mají menší kapacitu než pevné disky nebo SSD, ale jsou velmi pohodlná pro přenos dat mezi různými zařízeními.
+
+RAID (Redundant Array of Independent Disks):
+RAID je technologie, která umožňuje spojit několik fyzických disků do jednoho logického úložiště. RAID umožňuje dosáhnout vyšší rychlosti čtení a zápisu dat, zvýšit odolnost proti výpadku disku a zvýšit kapacitu úložiště. Existuje několik různých typů RAID konfigurací, včetně RAID 0, RAID 1, RAID 5, RAID 10 atd., každá s jinými vlastnostmi a výhodami.
+
+
+
+
+Souborový systém:
+Počítačový souborový systém slouží k organizaci a správě dat na uložišti. Nejběžnějším souborovým systémem v systémech Windows je NTFS (New Technology File System), zatímco v systémech MacOS se používá HFS+ (Hierarchical File System Plus) nebo novější APFS (Apple File System). Souborový systém definuje strukturu dat a způsob, jakým jsou organizována na disku.
+
+Sektory a clustery:
+Disky jsou rozděleny na malé jednotky zvané sektory. Sektor je nejmenší adresovatelná jednotka na disku a typicky má velikost 512 bajtů. Data se ukládají do jednoho nebo více sektorů podle jejich velikosti. Souborový systém následně organizuje sektory do větších jednotek zvaných clustery, které mohou mít různou velikost.
+
+Adresace:
+Každý sektor a cluster na disku má svou adresu, která je používána k identifikaci a lokalizaci dat. Adresace může být absolutní (fyzická adresa na disku) nebo relativní (vzhledem k počátku souborového systému).
+
+Metadata:
+Metadata jsou informace o datech, které jsou uloženy spolu s daty samotnými. Metadata mohou zahrnovat název souboru, velikost, datum a čas poslední modifikace, oprávnění přístupu a další atributy. Metadata jsou důležitá pro správnou organizaci a práci se soubory.
+
+Uložení dat:
+Když jsou data zapisována na disk, souborový systém přijme data, která mají být uložena, a vybere vhodné volné sektory nebo clustery pro uložení dat. Data jsou následně zapsána na tyto vybrané místo na disku a příslušné metadata jsou aktualizována.
+
+Čtení dat:
+Při čtení dat se počítač dotazuje souborového systému na umístění dat na disku pomocí adresy. Souborový systém pak přistupuje k příslušným sektorům nebo clusterům, čte data a předává je aplikaci nebo systému, který je vyžaduje.
+
