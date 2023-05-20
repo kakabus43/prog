@@ -1,0 +1,76 @@
+Počítačová síť (anglicky computer network) je souhrnné označení pro technické prostředky, které realizují spojení a výměnu informací mezi počítači. Umožňují tedy uživatelům komunikaci podle určitých pravidel, za účelem sdílení využívání společných zdrojů nebo výměny zpráv.
+
+Každá vrstva sítě je definována službou, která je poskytována vyšší sousední vrstvě, a funkcemi, které vykonává v rámci protokolu. Řízení komunikace slouží ke spolupráci komunikujících prvků, tato spolupráce musí být koordinována pomocí řídicích údajů. Koordinaci zajišťují protokoly, které definují formální stránku komunikace. Protokoly jsou tedy tvořeny souhrnem pravidel, formátů a procedur, které určují výměnu údajů mezi dvěma či více komunikujícími prvky.
+
+Tato síťová architektura, tzv. architektura otevřených systémů (zvaná též OSA, původem v anglickém Open Systems Architecture), byla normalizována organizací ISO, která vytvořila referenční model OSI. Praktickou realizací vrstvové síťové architektury je sada protokolů TCP/IP, i když neodpovídá přesně referenčnímu modelu ISO.
+
+Síťový protokol - Při datové komunikaci se komunikující zařízení musí shodnout a držet společně sady pravidel, neboli se musí shodnout na společném protokolu. Tento může definovat kde zpráva začíná, kde končí, nebo také maximální dobu, která může uplynout, než musí být zpráva přijata jednou z komunikačních stran
+
+Mezi hlavní protokoly Internetu patří rodina protokolů TCP/IP, do které patří Internet Protocol (IP), Transmission Control Protocol (TCP), User Datagram Protocol (UDP) a další protokoly. Kromě rodiny protokolů TCP/IP jsou na Internetu používány i další (aplikační) protokoly jako například: HTTP, DHCP, FTP, Telnet, SSH, POP3, IMAP, SMTP a další
+Protocol TCP/IP - Vzhledem ke složitosti problémů je síťová komunikace rozdělena do tzv. vrstev, které znázorňují hierarchii činností. Výměna informací mezi vrstvami je přesně definována. Každá vrstva využívá služeb vrstvy nižší a poskytuje své služby vrstvě vyšší. Komunikace mezi stejnými vrstvami dvou různých systémů je řízena komunikačním protokolem za použití spojení vytvořeného sousední nižší vrstvou. Architektura umožňuje výměnu protokolů jedné vrstvy bez dopadu na ostatní. Příkladem může být možnost komunikace po různých fyzických médiích - ethernet, optické vlákno, sériová linka.
+Architektura TCP/IP je členěna do čtyř vrstev:
+aplikační vrstva (application layer)
+transportní vrstva (transport layer)
+síťová vrstva (internet layer)
+vrstva síťového rozhraní (network interface)
+
+Most (anglicky bridge) označuje v počítačové síti síťové zařízení, které spojuje dvě části sítě na druhé (linkové) vrstvě referenčního modelu ISO/OSI. Most je pro protokoly vyšších vrstev transparentní (neviditelný), odděluje provoz různých segmentů sítě a tím zmenšuje i zatížení sítě.
+
+Aby počítače a počítačové sítě mohly v rámci sítě Internet vzájemně komunikovat, musí existovat mechanismus jednoznačné identifikace cílového počítače nebo sítě. Tento účel plní IP (Internet Protocol) . Adresa IP je celosvětově jednoznačná. Má čtyři číselné složky, které navíc obsahují informaci o umístění v rámci sítě, např. 194.108.11.5. IP může být statická (trvale přiřazená jednomu počítači) nebo dynamická (např. počítač připojený k Internetu komutovanou linkou ji získá dočasně na dobu připojení)
+
+DNS - Domain Name System, jeho hlavním úkolem jsou vzájemné převody doménových jmén a IP adres.
+
+Sítě můžeme rozdělit podle přepojování (paketová síť), postavení uzlů (peer-to-peer), podle přenášených signálů (digitální síť) či podle jejich rozhlehlosti
+Paketová síť - síť s přepojováním paketů, základem je, že cesta, kterou paket putuje, není od zdrojového po cílový uzel známá
+Peer-to-peer - typ sítě, ve které jsou si všechny počítače, resp. uzly, v síti rovny. Každá stanice v síti může vyčlenit některý svůj prostřeedek (tiskárnu, úložné médium) ke sdílení.
+Digitální síť - představuje signály, které obsahují spíše jednotlivé šířky analogové úrovně než nepřetržitý rozsah. Výhodou ve srovnání s analogovými sítěmi je nízká ztráta kvality. Na druhou stranu nevýhodou je občasná spotřeba větší energie
+PAN - Personal Area Network, je velice malá počíatčová síť používaná pro propojení jeho osobních elektronických zařízení typu mobilu, notebooku atp. Příkladem je BlueTooth
+LAN - Local Area Network, síť spojující uzly v rámci jedné budovy nebo několika blízkých budov, vzdálenosti stovky metrů až kilometry (při použití optiky), rozhlehlost je tedy větší než rozhlehlost PAN, ale menší než MAN. Nepoužívanějším typem je Ethernet
+MAN - Metropolitan Area Network, síť propojující lokální sítě v městské zástavbě, slouží především pro přenos dat, zvuku a obrazu, spojuje vzdálenosti řadově jednotek až desítek km
+WAN - Wide Area Network, síť spojující LAN a MAN sítě, mají největší působnost (třeba po celém státě)
+
+Otázky
+1) Jaké druhy počítačových sítí znáte? Uveďte příklady.
+
+Paketová síť, komutační (už se nepoužívá), peer-to-peer, klient-server (typ sítě, ve které je jeden počítač (server) nebo více počítačů nadřazen jinému počítači (klientovi) nebo několika počítačům), digitální síť, PAN, LAN, MAN, WAN
+
+2) Co je síťový protokol? K čemu slouží protokol TCP/IP? Vysvětlete pojem IP adresa.
+
+Rodina protokolů TCP/IP, kterou dnes používáme k realizaci naprosté většiny síťové komunikace. Při datové komunikaci se komunikující zařízení musí shodnout a držet společně sady pravide
+
+3) Popište rozdíl mezi statickým a dynamickým (DHCP) přidělováním IP adres.
+
+- Statická alokace - DHCP server obsahuje seznam MAC adres a k nim příslušným IP adres. Pokud je žádající stanice v seznamu, dostane vždy přidělenu stejnou pevně definovanou IP adresu.
+- Dynamická alokace - Správce sítě na DHCP serveru vymezí rozsah adres, které budou přidělovány stanicím, které nejsou registrovány. Časové omezení pronájmu IP adresy dovoluje DHCP serveru již nepoužívané adresy přidělovat jiným stanicím. Registrace dříve pronajatých IP adres umožňuje DHCP serveru při příštím pronájmu přidělit stejnou IP adresu.
+
+4) Popište činnost základních síťových prvků: switch, router, modem, access point, firewall.
+
+Switch (česky přepínač) je aktivní síťový prvek, propojující jednotlivé prvky sítě. Switch obsahuje větší či menší množství portů (až několik stovek), na něž se připojují síťová zařízení nebo části sítě. Jde o spojení v místní síti
+router umožnuje připojit více počítačů přes jedinou linku. směrovač pracuje na úrovni tzv. síťové vrstvy, která je bezprostředně nad vrstvou linkovou. Na této úrovni se přenášeným blokům dat říká obvykle pakety (packets). Hlavním úkolem směrovače je tedy rozhodnout, kterým směrem posílat jednotlivé pakety tak, aby se dostaly až ke svým koncovým adresátům.
+Modem je zařízení pro převod mezi analogovým a digitálním signálem a naopak. Modem je zkratkové slovo z výrazu " modulátor a demodulátor". Modemy se používají především pro přenos digitálních dat pomocí analogové přenosové trasy. Přenosová trasa může být telefonní linka, koaxiální kabel, radiový přenos apod.
+Access point (AP) je zařízení, ke kterému se klienti připojují. Klienti spolu nekomunikují přímo, ale prostřednictvím přístupového bodu, takže mohou být jednodušší a nemusí být ve vzájemném rádiovém spojení.
+Firewall je "bezpečnostní brána" ; zařízení či software oddělující provoz mezi dvěma sítěmi. Firewall brání před neoprávněnými průniky do sítě a odesílání dat ze sítě bez vědomí a souhlasu uživatele. Funkce Firewallu: Antivirová ochrana, Optimalizace připojení, Problémy s IP, Přístupová práva uživatel, Zabezpečená komunikace, Sdílení přístupu k internetu. chrání tak počítače před útokem hackerů, před viry a červů, řídí komunikaci z vnitřní sítě směrem ven, soustřeďuje komunikaci do jednoho uzlu, odfiltrovává nebezpečné služby,blokuje nepřátelské monitorování sítě
+
+
+
+chatgpteasy
+
+Počítačová síť je skupina počítačů, která je propojena pomocí kabelů, bezdrátových signálů nebo jiných komunikačních zařízení.
+
+Počítače v síti mohou být propojeny pomocí směrovačů, přepínačů nebo bezdrátových přístupových bodů.
+
+Síť umožňuje počítačům vzájemně komunikovat a sdílet informace, jako jsou soubory, tiskárny a internetové připojení.
+
+Sítě mohou být různě velké - mohou obsahovat pouze několik počítačů v domácnosti nebo tisíce počítačů ve velké organizaci.
+
+Internet je největší veřejná počítačová síť, která propojuje počítače a sítě z celého světa.
+
+Síť může být kabelová, což znamená, že počítače jsou propojeny pomocí kabelů, nebo bezdrátová, kdy se signál šíří vzduchem.
+
+Každý počítač v síti má svou jedinečnou adresu, která se nazývá IP adresa. Pomocí IP adresy se počítače identifikují a komunikují mezi sebou.
+
+Síť může také obsahovat servery, které poskytují různé služby, například ukládání souborů, e-mailové servery nebo webové servery.
+
+Bezpečnost je důležitou součástí počítačových sítí. Sítě mají různé zabezpečovací mechanismy, aby chránily data před neoprávněným přístupem.
+
+Síť může být rozdělena do různých podsítí, aby se usnadnila správa a zlepšila výkon.
