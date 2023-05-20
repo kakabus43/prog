@@ -1,0 +1,53 @@
+Řídící struktury jsou klíčové prvky v programování, které umožňují řídit tok programu a rozhodovat o tom, které části kódu se mají vykonat a jakým způsobem. Existují tři základní řídící struktury: sekvence, podmínka a cyklus.
+
+Sekvence:
+Sekvence je nejjednodušší řídící strukturou. Jedná se o postupné vykonávání jednotlivých příkazů nebo instrukcí v pořadí, v jakém jsou napsány. Program postupuje od prvního příkazu ke druhému, poté ke třetímu a tak dále. Jednotlivé příkazy se vykonávají po sobě bez ohledu na vstupy, výstupy nebo vnitřní podmínky programu.
+Příklad:
+
+Copy code
+Instrukce 1
+Instrukce 2
+Instrukce 3
+Podmínka:
+Podmínka umožňuje programu rozhodovat, kterou část kódu vykonat na základě splnění nebo nesplnění určité podmínky. Základní podmínkový příkaz je "if-else" (pokud-jinak). Program vyhodnotí podmínku a pokud je pravdivá (true), provede se kód uvnitř bloku "if". Pokud je podmínka nepravdivá (false), provede se kód uvnitř bloku "else" (jinak).
+Příklad:
+
+bash
+Copy code
+if podmínka:
+    provedení kódu
+else:
+    provedení jiného kódu
+Cyklus:
+Cyklus umožňuje opakovat určitou část kódu vícekrát, dokud je splněna určitá podmínka. Existuje několik typů cyklů, nejběžnějšími jsou "while" (dokud) a "for" (pro).
+Cyklus "while" opakuje vykonávání kódu, dokud je podmínka pravdivá.
+Příklad:
+bash
+Copy code
+while podmínka:
+    provedení kódu
+Cyklus "for" je speciálně určený pro opakování kódu s proměnnou, která se mění v každé iteraci.
+Příklad:
+bash
+Copy code
+for proměnná in rozsah:
+    provedení kódu
+Tyto tři řídící struktury mohou být kombinovány a vytvářet složitější programové algoritmy. 
+
+
+
+Řídící struktura (též strukturovaný příkaz, anglicky control flow statement) je v informatice konstrukce pro zápis počítačového programu
+Řídící struktury jsou používány jak v programovacích tak i v skriptovacích jazycích
+Rozhodují o dalším provádění programu: větví jeho běh, vytváří cykly nebo jinak mění běh programu
+Jedním z řídících struktur jsou cykly, které se skládají z posloupnosti příkazů a podmíněného skoku, pomocí kterého se cyklus ukončuje při splnění podmínky
+Existují několik druhů cyklů
+Nekonečný cyklus – za normálních okolností není vůbec ukončen
+While-do cyklus – cyklus probíhá, dokud se nesplní zadaná podmínka na začátku. Pokud nesplní podmínku již na začátku, příkaz se neprovede vůbec
+Opakem je do-while, kdy se podmínka testuje na konci. Výhodou tohoto cyklu je, že má alespoň jeden průchod, vzhledem k testování podmínky až na konci
+o For cyklus – nejznámější a nejpoužívanější. Obvykle užívaný pro výčet prvků z množiny prvků (např. interval celých čísel). For cyklus se skládá ze tří částí a to z inicializačního, podmínky a inkrementu. Stejně jako while se testuje podmínka na začátku
+Je zde i možnost násilně zastavit cyklus a to příkazem break. Teoreticky lze tedy vytvořit nekonečný cyklus, kde se správnou podmínkou ji násilně přerušit
+Existuje i příkaz continue, který můžeme použít v jakémkoliv druhu cyklu. Pokud je proveden, přeruší právě probíhanou smyčku cyklu a přesune se na další
+Větvení je základní způsob jak určovat běh programu na základě podmínek. Jsou zde dva způsoby jak to provést. Jedním je metoda „if else“ a druhou „switch“
+Nevýhodou switche je takový, že pokud zapomeneme v jednom z případů příkaz break, splní se následující případ (case) → pokud ovšem je také zakončen breakem, jinak se splní až ten poslední
+Ve switchi můžeme využít speciální případ hodnoty default a tzn., že pokud nenabude žádný z uvedených hodnot, vykoná se tohle
+Další speciální řídící strukturou můžeme považovat, je příkaz goto. Používá se ke skoku na jiné místo v programu, které je označeno návěstím. Příkaz goto můžeme použít ke konstrukci cyklu
