@@ -1,0 +1,31 @@
+
+Definice a vysvětlení aktivních webových stránek:
+Aktivní webové stránky jsou typem webových stránek, které využívají interaktivních prvků a technologií pro zlepšení uživatelského zážitku. Na rozdíl od statických stránek, které poskytují pouze statický obsah a informace, aktivní webové stránky umožňují uživatelům interagovat s obsahem, provádět akce a přizpůsobit si zobrazení podle svých preferencí.
+
+Výhody aktivních webových stránek oproti statickým stránkám:
+
+Interaktivita: Aktivní webové stránky umožňují uživatelům interagovat s obsahem, provádět akce a přizpůsobovat si zobrazení. To zlepšuje uživatelský zážitek a umožňuje vytvořit bohatší prostředí na webu.
+Dynamický obsah: Aktivní webové stránky mohou načítat obsah dynamicky a aktualizovat ho bez nutnosti celé stránky znovu načítat. To umožňuje rychlejší a plynulejší procházení stránek.
+Asynchronní komunikace: Aktivní webové stránky mohou využívat asynchronní komunikaci mezi webovým prohlížečem a serverem pomocí technologií jako AJAX (Asynchronous JavaScript and XML). To umožňuje aktualizaci obsahu stránky bez nutnosti znovu načítat celou stránku.
+Role JavaScriptu a AJAXu při tvorbě aktivních webových stránek:
+JavaScript je programovací jazyk používaný pro tvorbu aktivních webových stránek. JavaScript umožňuje přidávat interaktivní prvky, provádět akce na stránce a komunikovat s webovým serverem. AJAX je technika, která využívá JavaScriptu pro asynchronní komunikaci mezi webovým prohlížečem a serverem. Díky AJAXu je možné načítat a aktualizovat obsah stránek bez nutnosti celou stránku znovu načítat, což přináší lepší uživatelský zážitek.
+
+Příklady interaktivních prvků a efektů, které mohou být implementovány na aktivních webových stránkách:
+
+Ovládací prvky: Tlačítka, formuláře, rozbalovací menu a jiné ovládací prvky umožňují uživatelům provádět akce na stránce.
+Animace: Aktivní webové stránky mohou obsahovat animace, které přidávají pohyb a vizuální efekty.
+
+
+
+Obsah vygenerován aktuálními informacemi pro každé individuální zobrazení. Mění se v závislosti na čase (např. blog), uživateli (např. přihlášení uživatele), uživatelské interakci (např. online počítačová hra)
+Typy aktivních webových stránek - Skriptování a vytváření obsahu na straně klienta/serveru nebo kombinací klienta a serveru
+Příslušný kód reaguje uvnitř webové stránky na události z klávesnice nebo myši
+Pro zpracovávání médií – skriptovací jazyky
+Obsah je generován na počítači uživatele. Prohlížeč obdrží stránku, jejíž kód provede a výsledek zobrazí uživateli
+Využívá se program běžící na serveru pro změnu webového obsahu na stránkách
+Tyto stránky jsou často vytvářeny pomocí jazyků na straně serveru (ASP, ColdFusion, Perl, PHP)
+V případě kombinování → tak tu je AJAX. AJAX je technologie vývoje webových stránek dynamickou výměnu obsahu se stranou serveru bez nutnosti znovu načíst webovou stránku. Příkladem webových aplikací používající AJAX technologii a databázi jsou Google mapy.
+RS neboli CMS (Content Management System) je aplikace, která zajišťuje kompletní správu obsahu webu, dokumentů. Základní funkcí redakčních systémů je publikování textů (má mnoho funkcí např. lze do nich doinstalovat celou řadu doplňků, např. diskuzní fóra, fotogalerie, internetový obchod atd.) V dnešní době se jako RS zpravidla chápou webové aplikace, někdy s případným doplňkovým programovým vybavením u klienta. Nejpoužívanější jsou Joomla, WordPress, Drupal.
+Základní funkce CMS → tvorba, modifikace a publikace dokumentů (článků); řízení přístupu k dokumentům, zpravidla se správou uživatelů a přístupových práv; správa souborů; správa diskusí či komentářů; správa obrázků či galerií; kalendářní funkce; statistika přístupů
+Výhody - zvýšení bezpečnosti, efektivita, zabránění zkopírování zdrojového kódujinými webovými vývojáři
+Nevýhody - internetové vyhledávače vytvářejí publikovaných HTML webových stránek, které byly v prvopočátku statické, vyhledávaní nemusí najít hledanou informaci
