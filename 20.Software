@@ -1,0 +1,94 @@
+1) Co rozumíme pod pojmem software, a do jakých základních skupin se dá rozdělit?
+
+Software: Je souhrnný název pro všechny počítačové programy používané v počítači, které provádějí nějakou činnost. To znamená, že software je v počítači vše, co není hardware (tj. vše kromě fyzických součástí počítače). V tomto případě zahrnujeme mezi software i data, která typicky neprovádějí žádnou činnost, ale data popisují: obrázek, textový dokument a podobně. Označení software se někdy vztahuje jen na programy, ale může se vztahovat i na data. Můžeme rozdělit do:
+
+Systémový software - umožňuje efektivní používání počítače
+firmware - software obsažený v hardware (BIOS, firmware vstupně-výstupních zařízení jako tiskárny, CD/DVD mechaniky, grafické a zvukové karty, …)
+operační systém - spravuje počítač, vytváří prostředí pro programy - jádro operačního systému (včetně ovladačů zařízení); pomocné systémové nástroje - pro správu operačního systému (formátování disků, nastavení oprávnění, utility,…)
+
+Aplikační software - umožňuje uživateli vykonávat nějakou užitečnou činnost, například:
+kancelářské aplikace: textový editor, tabulkový procesor, prezentační program
+grafické programy: vektorový grafický editor, bitmapový grafický editor, CAD
+vývojové nástroje: vývojové prostředí, překladač
+multimediální software: přehrávače digitálního zvuku a videa apod.
+zábavní software: počítačové hry atd.
+
+
+2) Co je operační systém, jaké služby zajišťuje? Uveďte příklady operačních systémů, jejich základní vlastnosti a jejich použití.
+
+Operační systém je v informatice základní programové vybavení počítače (tj. software), které je zavedeno do paměti počítače při jeho startu a zůstává v činnosti až do jeho vypnutí. Skládá se z jádra (kernel) a pomocných systémových nástrojů. Hlavním úkolem operačního systému je zajistit uživateli možnost ovládat počítač, vytvořit pro procesy stabilní aplikační rozhraní (API) a přidělovat jim systémové zdroje.
+
+Příklady: Microsoft (Windows XP, 2000, ME, Vista, 7, 8), Apple (X lion, snow leopard, mavericks), linux (Ubuntu, Debian, Suse, Gentoo, redhat),…
+
+
+3) Vysvětlete následující pojmy: ovladač zařízení, knihovna programů, BIOS.
+
+Ovladač zařízení je v označení pro software (část kódu), který umožňuje operačnímu systému pracovat s hardwarem. Některé ovladače jsou součástí operačního systému, jiné jsou distribuovány s hardwarem (např. na CD-ROM)
+
+Knihovna (library) je v informatice označení pro soubor funkcí a procedur (v objektovém programování též objektů, datových typů a zdrojů), který může být sdílen více počítačovými programy. Knihovna usnadňuje programátorovi tvorbu zdrojového kódu tím, že umožňuje použít již vytvořený kód i v jiných programech. (statické i dynamické)
+
+BIOS (Basic Input-Output System) vykonává základní vstupně-výstupní funkce pro počítače IBM PC kompatibilní a představuje vlastně firmware pro osobní počítače. V současné době se BIOS používá hlavně při startu počítače pro inicializaci a konfiguraci připojených hardwarových zařízení a následnému spuštění operačního systému, kterému je pak předáno další řízení počítače. (Dnes UEFI)
+
+
+4) Jaké funkce zajišťuje tzv. kancelářský software? Uveďte alespoň dva příklady balíků kancelářského software.
+
+Kancelářský balík je označení pro skupinu kancelářského softwaru prodávaného jako celek a jeho součástí je např. textový procesor, nástroj na tvorbu prezentací či databázový system.
+
+Nejrozšířenejší je Microsoft Office, ale v poslední době získává oblibu open source kancelářský balík LibreOffice po svém předchůdci OpenOffice a Pages (MAC=Apple)
+
+5) Co označujeme jako škodlivý software? Uveďte příklady.
+
+Software může provádět i nezamýšlenou činnost, v tom případě hovoříme buď o programátorské chybě nebo o počítačových virech, malware, spyware (program, který využívá internetové stránky k odesílání dat z počítače), trojských koních a podobném nežádoucím software. Důvodem existence nežádoucího software jsou nečestné úmysly jejích tvůrců, kteří zneužívají chyb ostatních software např. webový prohlížeč
+
+Běžný uživatel počítače obvykle nemá dostatečné technické znalosti, aby takový software rozeznal nebo dokonce zabránil v jeho činnosti. Proto existují antivirové programy, antispyware a další programy kteří se pokouší se činnost nežádoucího software eliminovat.
+
+
+
+Co je software?
+
+Software je soubor instrukcí a dat, který je napsán nebo vytvořen pro použití na počítači nebo jiném zařízení.
+Je to jakýsi program nebo aplikace, které řídí chování počítače nebo zařízení.
+
+Typy softwaru:
+
+Operační systém: Je to software, který umožňuje počítači nebo zařízení spravovat a provádět různé úkony, jako je spouštění programů a správa souborů.
+Aplikační software: Jsou to programy, které slouží pro konkrétní úkoly, například prohlížeče internetu, hry, kancelářské programy (např. textové editory, tabulkové procesory) nebo grafické editory.
+
+Jak se software vytváří?
+
+Software se vytváří pomocí programovacích jazyků, které umožňují programátorům psát instrukce, které počítač nebo zařízení může pochopit a provést.
+Programátoři používají speciální vývojové prostředí (IDE) nebo textové editory pro psaní kódu.
+
+Jak funguje software?
+
+Software obsahuje instrukce, které jsou zpracovány počítačem nebo zařízením, aby vykonaly určitou činnost.
+Instrukce jsou zpravidla vykonávány postupně (od začátku konce) a mohou zahrnovat podmínky, smyčky a další logické operace.
+
+Aktualizace a opravy software:
+
+Software může být aktualizován, aby se zlepšila jeho funkčnost, přidaly nové funkce nebo opravily chyby.
+Aktualizace se často poskytují prostřednictvím internetu a uživatelé je mohou instalovat, aby jejich software zůstal aktuální a bezpečný.
+
+Licence:
+
+Software může být chráněn autorskými právy a být dostupný pouze na základě licence.
+Licence stanovuje, jakým způsobem může být software používán a distribuován.
+
+Výhody a nevýhody softwaru:
+
+Výhody: Software může usnadnit život a zlepšit produktivitu. Může automatisovat úkoly, umožnit komunikaci, poskytnout informace a zábavu.
+Nevýhody: Některý software může být náročný na používání, mít chyby nebo být zranitelný vůči bezpečnostním hrozbám.
+
+Software a hardware:
+
+Hardware představuje fyzické části počítače nebo zařízení, zatímco software představuje instrukce, které hardware provádí.
+Hardware a software spolu spolupracují, aby umožnily počítači nebo zařízení vykonávat různé úkony.
+
+Vývoj softwaru:
+
+Vývoj software je proces tvorby, testování a údržby softwaru.
+Zahrnuje analýzu požadavků, návrh, implementaci (programování), testování a nasazení.
+
+Softwarové inženýrství:
+
+Softwarové inženýrství je disciplína, která se zabývá systematickým přístupem k vývoji, správě a údržbě softwaru.
