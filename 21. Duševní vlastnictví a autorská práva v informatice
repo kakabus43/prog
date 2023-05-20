@@ -1,0 +1,58 @@
+https://editit.wordpress.com/2016/05/05/797/
+
+1) Co rozumíte pod pojmem duševní vlastnictví?
+
+Intelektuální vlastnictví, duševní vlastnictví (intelektuální vlastnictví), je soubor práv k výsledkům duševní tvůrčí činnosti člověka.
+-Právo k nehmotným majetkovým hodnotám (statkům), která jsou objektivně smysly vnímatelné a jsou způsobilé být předmětem právních vztahů
+-Podmínkou jejich užití v rámci právních vztahů je však jejich hmotné zachycení (materializace), anebo jiná objektivní smyslová vnímatelnost (např. prostřednictvím přednášky). Materializací je takto například zachycení na papíře, obrazové vyjádření, zápis na počítačové disketě apod. Právní teorie ovšem hmotné vyjádření a samotné duševní vlastnictví (tj. nehmotný statek) od sebe odděluje. Vychází tak zejména z právní praxe, kdy například předmětem zabrání věci podle trestního zákoníku může být jen hmotný nosič záznamu.
+
+2) Jaké základní formy ochrany duševního vlastnictví znáte? Popište podrobněji, co je předmětem ochrany u jednotlivých forem.
+
+-Autorské právo → jen určitou dobu, nechrání samotné myšlenky či ideje; chrání pouze konkrétní díla, konkrétní vyjádření takových myšlenek, dílo v objektivně vnímatelné podobě. Autorským dílem je pouze jedinečný výsledek tvůrčí činnosti autora, dílem není námět, zpráva, informace, metoda, teorie, vzorec, graf, tabulka fyzikálních konstant, výstup počítačového programu apod. samy o sobě. Vedle autorského práva v užším smyslu jsou chráněna také tzv. práva související s právem autorským, kam patří práva výkonného umělce k vlastnímu výkonu, práva výrobců zvukových a zvukově obrazových záznamů, právo rozhlasového a televizního vysílatele a právo nakladatele
+-Patenty → zákonná ochrana vynálezů zaručující vlastníkovi patentu výhradní právo k průmyslovému využití vynálezu. Patenty se udělují na vynálezy, které jsou nové, jsou výsledkem vynálezecké činnosti a jsou průmyslově využitelné. Objevy, vědecké teorie a matematické metody, pouhé vnější úpravy výrobků, plány, pravidla a způsoby vykonávání duševní činnosti, programy počítačů, pouhé uvedení informace
+-Užitné vzory → ochrana poskytována technickým řešením, která jsou nová, přesahují rámec pouhé odborné dovednosti, a která jsou průmyslově využitelná. Novost technického řešení se přitom posuzuje podle aktuálního stavu techniky a průmyslová využitelnost zase podle toho, zda může být dané řešení opakovaně využíváno v hospodářské činnosti. Ochranu užitným vzorem má především původce technického řešení, tedy ten, kdo jej vytvořil vlastní tvořivou prací, případně ji může uplatňovat i jeho právní zástupce. Objevy, vědecké teorie a matematické metody, pouhé vnější úpravy výrobků, plány, pravidla a způsoby vykonávání duševní činnosti, programy počítačů, pouhé uvedení informace
+-Průmyslové vzory → Průmyslový vzor je způsob právní ochrany designu výrobku. Jedná se o vzhled výrobku nebo jeho části, zejména se jedná o linie, obrysy, barvy, tvar, strukturu, materiál nebo zdobení výrobku
+-Ochranné známky → označení, pomocí kterého firmy identifikují samy sebe, své výrobky a služby. Tím se pro zákazníky odlišují od ostatních firem, které na trh přinášejí stejné nebo podobné výrobky a služby. Označení trademark (™)
+
+3) Jaké znáte softwarové licence? Co z nich vyplývá pro zacházení se softwarovými produkty?
+
+-Mozilla Public License(MLP) - používána pro zdrojový kód software vydávaný Mozilla Corporation, jako je Firefox či Thunderbird
+-BSD licence - licence pro svobodný software, mezi kterými je jednou z nejsvobodnějších. Umožňuje volné šíření licencovaného obsahu, přičemž vyžaduje pouze uvedení autora a informace o licenci, spolu s upozorněním na zřeknutí se odpovědnosti za dílo. Zkratka BSD označuje "Berkeley Software Distribution" - obchodní organizaci při University of California, Berkeley, která tuto licenci vyvinula a používala pro práce nad operačním systémem BSD
+-Licence určují, co vše může uživatel dělat se softwarem
+   Komerční použití(Microsoft produkty, Adobe, Photoshop, Eset, Legas,…)
+   Shareware - trial (Total Commander, …)
+   Freeware - nemáme zdrojový kód, ale je plně zdarma
+   Opensource- máme i zdrojový kód, je zdarma(Linuxové programy - většina)
+
+4) Jak je to s ochranou autorských práv audiovizuálních děl? Jaká je ochrana autorských práv počítačových programů?
+
+-Počítačové programy v České republice jsou autorským zákonem chráněny stejně jako autorská díla, i přestože nesplňují všechny parametry
+-Audiovizuální dílo - je chráněno autorským zákonem podobně jako výstup programu
+
+5) Vysvětlete nejdůležitější právní aspekty stahování autorsky chráněných děl z webových serverů oproti stahování ze sítí peer-to-peer.
+
+-Webové servery - zde, když vložíte nějaký obsah, který je autorsky chráněný porušujete zákony
+-Sítě peer-to-peer (např. torrent) → zde je uživatel v podstatě chráněný, většinou jsou žalovány peer-2-peer sítě, např. Napster
+
+6) Jaké jsou nejnovější trendy pro ochranu autorských práv a pro potlačování nelegálního šíření softwaru a audiovizuálních děl?
+
+-nucení serverů typu ulož to, mega upload smazat nelegální videa, filmy atd.
+-MP3 budou obsahovat ochranu proti pirátskému šíření (zatím se vyvíjí)
+-ochrana i 70 let po smrti
+
+
+Samotný termín "duševní vlastnictví" je širší koncept, který zahrnuje různé formy práv, včetně autorských práv v informatice. Zde je jednoduché vysvětlení obou konceptů v bodech:
+
+Duševní vlastnictví:
+
+Duševní vlastnictví se týká ochrany myšlenek, nápadů, vynálezů a kreativních děl.
+Zahrnuje práva jednotlivců nebo organizací nad jejich duševním výtvorem, který může být například kniha, hudba, software, vynález nebo design.
+Tato práva umožňují vlastníkům kontrolovat použití svého duševního vlastnictví a získávat z něj ekonomické výhody.
+Příklady forem duševního vlastnictví zahrnují autorská práva, patentová práva, ochranné známky a průmyslové vzory.
+
+Autorská práva v informatice:
+
+Autorská práva v informatice se týkají ochrany autorských děl v oblasti počítačového softwaru a digitálních technologií.
+Software, jako je aplikace, operační systém nebo webové stránky, je považován za autorské dílo, které je chráněno autorským právem.
+Vlastník autorských práv má exkluzivní právo rozhodovat o kopírování, distribuci, modifikaci a veřejném vystavování softwaru.
+Autorská práva v informatice chrání autory softwaru před neoprávněným užíváním jejich děl a poskytují jim právní nástroje pro prosazování těchto práv.
