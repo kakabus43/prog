@@ -1,0 +1,153 @@
+1) Co to je netiketa? Uveďte hlavní zásady "slušného chování" při webové komunikaci. Znáte zásady pro relativně bezpečný pohyb v kyberprostoru?
+
+Netiquetteje soubor pravidel, jak se na síti chovat. Netiquette není zákon a proto chování podle ní nelze vynutit.
+
+Desatero slušného chování - základní pravidla netiquette
+Neměl bys používat počítač k tomu, abys škodil ostatním lidem
+Neměl bys bránit ostatním lidem pracovat na počítači
+Neměl bys čmuchat v cizích souborech
+Neměl bys pomocí počítače krást
+Neměl bys pomocí počítače šířit fámy
+Neměl bys používat ani kopírovat program, za který si nezaplatil
+Neměl bys používat prostředky na cizím počítači bez svolení
+Neměl bys upírat ostatním lidem užívat svůj intelekt
+Měl bys myslet na společenské souvislosti programu, který píšeš
+Měl bys používat počítač s respektem a uvážením
+Měl bys znát aspoň základy češtiny, popřípadě jazyka který hodláš používat
+
+Zásady pro relativně bezpečný pohyb na internetu
+
+Používat aktuální antivir, antispyware, firewall
+Pravidelně aktualizovat používaný operační systém a užívané programy (zejména prohlížeče a jejich pluginy - Flash, Java)
+Používat silné heslo, nezapisovat, neukládat a nesdělovat ho
+Kontrolovat u podezřelých stránek jejich skutečnou adresu v řádku prohlížeče
+Neotvírat neznámé či podezřelé soubory, programy nebo přílohy poštovních zpráv
+K citlivým službám se připojovat pouze z vlastního počítače a nikdy přes neznámou wifi nebo z internetové kavárny
+Nenavštěvovat pornografické stránky nebo stránky, jež šíří warez. Často je na těchto stránkách záměrně obsažen malware
+Připojovat se k internetovému bankovnictví, e-mailové schránce či jiným citlivým službám zásadně přes HTTPS protokol
+U internetového bankovnictví se řádně odhlašovat ze služby
+Pro větší zabezpečení dat na disku je vhodné použít program pro šifrování dat (např. TrueCrypt aj.)
+K zabezpečení e-mailové komunikace používat vhodné programy jako PGP, GnuGP aj
+Pamatovat, že smazaná data nejsou na disku ve skutečnosti smazána, ale pouze označena k přepsání. Pro skutečné vymazání je nutné je mnohonásobně přepsat
+Firmy a organizace mohou komunikovat přes zabezpečenou virtuální privátní síť. Virtuální privátní síť je také vhodným zabezpečením komunikace, pokud se připojujete přes neznámou wifi
+Pravidelně zálohovat důležitá data
+V sociálních sítích využívat co nejméně aplikacích třetích stran (her, kvízů atp.)
+Uvažovat, které informace o sobě internetu poskytujete
+
+2) Co to je SPAM, HOAX, VIR, Trojský kůň, Phishing - představíte nám nějaké příklady?
+
+Spam - Nevyžádané sdělení masově šířené internetem. Původně se používalo především pro nevyžádané reklamní e-maily, postupem času tento fenomén postihl i ostatní druhy internetové komunikace - např. diskuzní fóra, komentáře nebo instant messaging
+
+Hoax - (anglické slovo hoax označuje podvod, mystifikaci či žert) je nevyžádaná e-mailová nebo IM zpráva, která uživatele varuje před nějakým virem, prosí o pomoc, informuje o nebezpečí, snaží se ho pobavit apod. Hoax většinou obsahuje i výzvu žádající další rozeslání hoaxu mezi přátele, příp. na co největší množství dalších adres, proto se někdy označuje také jako řetězový e-mail.
+
+Virus - Jako virus se v oblasti počítačové bezpečnosti označuje program, který se dokáže sám šířit bez vědomí uživatele (není myšleno jako kopírování mezi počítači). Pro množení se vkládá do jiných spustitelných souborů či dokumentů. Takový program se tedy chová obdobně jako biologický virus, který se šíří vkládáním svého kódu do živých buněk. Viry jsou jen jedním z druhů tzv. malwaru, zákeřného softwaru. V obecném smyslu se jako viry (nesprávně) označují i např. červi a jiné druhy malwaru. Viry se na rozdíl od červů nejsou schopny šířit rozesíláním kopií na jiné počítače. (Mellisa, Byte Bandit, Whale atd.)
+
+Trojské koně - zvláštní sortou záškodníků, díky nimž má útočník možnost monitorovat či ovládat činnost systému na vzdáleném počítači. Od klasických počítačových virů se drtivá většina trojských koňů liší především tím, že se nesnaží o samovolné kopírování a šíření sebe sama. Nejčastějším způsobem nákazy trojským koněm je otevření neznámé přílohy v e-mailu, která se vydává za regulérní aplikaci. Mezi nejznámější zástupce trojských koňů pro ovládání počítače oběti bezesporu patří BackOrifice, NetBus nebo Sub7
+
+Phishing - podvodná technika používaná na Internetu k získávání citlivých údajů v elektronické komunikaci. K nalákání důvěřivé veřejnosti komunikace předstírá, že pochází z populárních sociálních sítí, aukčních webů, on-line platebních portálů,úřadů státní správy apod. Principem phishingu je typicky rozesílání e-mailových zpráv nebo instant messaging, které často vyzývají adresáta k zadání osobních údajů na falešnou stránku, jejíž podoba je takřka identická s tou oficiální. Stránka může například napodobovat přihlašovací okno internetového bankovnictví
+
+Jedním z hlavních cílů současného phishingu jsou služby sociálních sítí, neboť osobní detaily z těchto sítí mohou být použity k odcizení identity; koncem roku 2006 počítačový červ převzal kontrolu nad službou MySpace a pozměnil odkazy, aby přesměrovaly návštěvníky na adresu navrženou k odcizení přihlašovacích údajů
+
+3) Co to je Blog, Komunitní web, Fórum, Webmail, Chat, Vyhledávač, Webhosting, Redakční systém? Uveďte i konkrétní příklady webů, firem apod…
+
+Blog je webová aplikace obsahující příspěvky většinou jednoho editora na jedné webové stránce. Autor se nazývá blogger, veškeré blogy a jejich vzájemné vztahy blogosféra. Mnoho weblogů umožňuje přidávat komentáře k jednotlivým příspěvkům, takže kolem nich vzniká čtenářská komunita; jiné jsou neinteraktivní
+Např. Webgarden, Webnode, Weebly atd.
+
+Komunitní web - Jde o platformu zajišťující interakci mezi uživateli. Využívá technologii web 2.0. Komunitní server má velkou spoustu funkcí, které mohou uživatelé využívat. Jde například o blogy, fotogalerie, emailovou schránku, vlastní webový prostor,… Převážná většina jejich obsahu či provozu je tvořena samotnými uživateli.
+Makrokomunitní (není dána tematická oblast, pro kterou by se zde lidé scházeli) x mikrokomunitní servery (sdružují určitou skupinu uživatelů se společným znakem, je dána tematická oblast)
+Postuj.cz, Líbímseti.cz, Sportcentral.cz, Gamepark.cz, Myspace, Facebook atd
+
+Fórum - Internetová diskuse je stránka na internetu, kam lidé vkládají své názory a reakce a ty se následně na stránce zobrazují. Oproti IRC kanálům nebo chatu se internetová diskuse obvykle liší tím, že přispěvatelé nemusí být ke stránce připojeni současně a reagovat bezprostředně, ale mohou reagovat i s odstupem mnoha dní či měsíců. Mnohé diskusní stránky však mají zároveň i znaky chatu
+Xforum.cz, Teleforum.cz, Warforum.cz (warez) atd
+
+Webmail - Webová aplikace, která umožňuje uživatelům přistupovat k jejich e-mailovým schránkám prostřednictvím webového prohlížeče. Webmail je alternativa ke klasickým aplikacím e-mailových klientů. Webmail poskytují téměř všechny internetové portály a poskytovatelé webových služeb
+Gmail, Yahoo! Mail, Hotmail, Seznam.cz, Centrum.cz, Tiscali.cz atd.
+
+Chat - Chat je krátká komunikace nebo rozhovor dvou nebo více lidí prostřednictvím komunikační sítě. Uskutečňuje se vždy v reálném čase. Pro chat byl zaveden komunikační protokol IRC. Později se k tomuto způsobu přidala možnost přenášet zvuk, případně i obraz
+V současné době se rozšiřuje využívání "webchatů". Ty jsou založeny na protokolu HTTP a texty jsou zobrazovány pravidelnou aktualizací stránky
+Ještě častější variantou chatu je služba známá jako instant messaging. Mezi nejpoužívanější příklady této služby patří Jabber, ICQ nebo MSN.
+
+Vyhledávač - Služba, která umožňuje na Internetu najít webové stránky, které obsahují požadované informace. Uživatel zadává do rozhraní vyhledávače klíčová slova, která charakterizují hledanou informaci, a vyhledávač obratem na základě své databáze vypisuje seznam odkazů na stránky, které hledané informace obsahují (text, obrázky nebo jiné typy multimediálních informací). Databáze je udržována převážně automaticky na rozdíl od internetových katalogů, které jsou udržovány převážně ručně
+Cílem vyhledávačů je poskytnout uživateli při odpovědi na dotaz co nejrelevantnější informace, a proto různými způsoby hodnotí důležitost webových stránek, které mají ve své databázi (např. PageRank)
+Altavista, Google, Bing, Yahoo, Atlas, Seznam atd
+
+Webhosting je pronájem prostoru pro webové stránky na cizím serveru. Poskytovatelé většinou u webhostingu nabízí skriptovací technologie PHP, ASP, ASP.NET, JSP aj., z databází jsou nabízeny především MySQL, PostgreSQL a MS SQL. Stránky na server se kopírují převážně protokolem FTP
+Webhosting je pouze samotné umístění stránek na serveru poskytovatele. Aby se uživatelé internetu ke stránkám dostali, je potřeba mít zaregistrovánu doménu (např. s názvem společnosti)
+Může se stát, že v případě poruchy či přetížení jednoho webu jsou významně ovlivněny či dokonce znefunkčněny i všechny ostatní na stejném serveru. Výhodou je naopak nízká cena - zákazník webhostingu zaplatí pouze zlomek toho, kolik by ho stál provoz vlastního serveru
+IPage, Justhost, Bluehost, Wedos, Pipni atd.
+
+Redakční systém - Software zajišťující správu dokumentů, nejčastěji webového obsahu. V dnešní době se jako CMS zpravidla chápou webové aplikace, někdy s případným doplňkovým programovým vybavením u klienta
+Pro CMS se někdy používají i oborově podobné termíny redakční či publikační systém
+PHP Fusion, WordPress, Webnode, Joomla!, Drupal atd.
+
+4) Jaké trendy se v současnosti objevují na internetu? Co to je sociální síť, Instant Messaging, Cloudcomputing apod.?
+
+Sociální síť - Služba, která registrovaným členům umožňuje si vytvářet osobní (či firemní) veřejný či částečně veřejný profil, komunikovat spolu, sdílet informace, fotografie, videa, provozovat chat a další aktivity. Komunikace mezi uživateli sociálních sítí může probíhat buď soukromě mezi dvěma uživateli nebo (nejčastěji) hromadně mezi uživatelem a skupinou s ním propojených dalších uživatelů
+Instant messaging - Internetová služba, umožňující svým uživatelům sledovat, kteří jejich přátelé jsou právě připojeni, a dle potřeby jim posílat zprávy, chatovat, přeposílat soubory mezi uživateli a i jinak komunikovat. Hlavní výhodou oproti používání např. e-mailu spočívá v principu odesílání a přijímání zpráv v reálném čase. Jinými slovy zpráva je doručena ve velmi krátké době od odeslání (většinou v rámci stovek milisekund)
+Cloudcomputing - Model vývoje a používaní počítačových technologií. Lze ho také charakterizovat jako poskytování služeb či programů uložených na serverech na Internetu s tím, že uživatelé k nim mohou přistupovat například pomocí webového prohlížeče nebo klienta dané aplikace a používat je prakticky odkudkoliv. Uživatelé neplatí (za předpokladu, že je služba placená) za vlastní software, ale za jeho užití. Nabídka aplikací se pohybuje od kancelářských aplikací, přes systémy pro distribuované výpočty, až po operační systémy provozované v prohlížečích, jako je například eyeOS, Cloud či iCloud
+
+
+
+
+I. Webové nástroje:
+
+Definice Webových nástrojů:
+
+Webové nástroje jsou aplikace nebo služby dostupné prostřednictvím internetu.
+Poskytují uživatelům různé funkce a možnosti interakce s informacemi nebo s ostatními uživateli.
+ 
+Typy Webových nástrojů:
+a) Sociální sítě:
+Slouží k vytváření a sdílení obsahu s ostatními uživateli.
+Příklady: Facebook, Twitter, Instagram.
+
+b) Komunikační nástroje:
+Umožňují komunikaci a výměnu zpráv mezi uživateli.
+Příklady: E-mailové služby, chatovací aplikace (WhatsApp, Slack), videohovory (Skype, Zoom).
+
+c) Kolaborační nástroje:
+Podporují spolupráci a sdílení informací mezi uživateli.
+Příklady: Google Docs, Microsoft Office 365, Trello.
+
+d) Nástroje pro správu projektů:
+Pomáhají organizovat a sledovat průběh projektů a úkolů.
+Příklady: Asana, Jira, Basecamp.
+
+e) Nástroje pro vytváření obsahu:
+Umožňují tvorbu a publikování různých typů obsahu.
+Příklady: WordPress, Wix, Canva.
+
+f) Webové analytické nástroje:
+Poskytují informace o návštěvnosti webových stránek a chování uživatelů.
+Příklady: Google Analytics, Hotjar.
+
+II. Komunikace:
+
+Definice komunikace:
+Komunikace je proces přenosu informací, názorů a emocí mezi dvěma nebo více účastníky.
+
+Druhy komunikace:
+
+a) Verbální komunikace:
+Přenos informací pomocí mluveného nebo psaného slova.
+Příklady: rozhovory, prezentace, e-maily.
+
+b) Neverbální komunikace:
+Přenos informací pomocí gest, mimiky, tónu hlasu a jiných nonverbálních prostředků.
+Příklady: tělesná řeč, oční kontakt, úsměv.
+
+c) Skupinová komunikace:
+Komunikace mezi více účastníky.
+Příklady: schůzky, týmová spolupráce, konference.
+
+d) Dálková komunikace:
+Komunikace mezi účastníky na vzdálených místech.
+Příklady: telefonní hovory, videohovory, e-maily, chatovací aplikace.
+
+e) Formální komunikace:
+Komunikace probíhající v rámci strukturovaných organizací a institucí.
+Příklady: pracovní e-maily, firemní prezentace, oficiální dokumenty.
+
+f) Neformální komunikace:
+Neoficiální, spontánní komunikace mezi lidmi bez pevně daných pravidel.
+Příklady: rozhovory s přáteli, konverzace na sociálních sítích.
