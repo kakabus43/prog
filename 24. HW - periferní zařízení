@@ -1,0 +1,93 @@
+1) Co to jsou periferní zařízení, jak se dají rozdělit? Jaké periferní zařízení znáte?
+
+-Hardware, který není přímo součástí počítače, ale dodatečně se k němu připojuje. Periferní zařízení (zkráceně periferie) jsou tedy například monitory, tiskárny, klávesnice, myši aj.
+-výstupní → tiskárna, monitor, reproduktor, sluchátka apod.
+-vstupní → klávesnice, myš, tablet, scanner, mikrofon, webová kamera, snímač čárového kódu, joystick apod.
+-kombinovaná vstupně-výstupní → zařízení pro ukládání dat - flashka, paměťová karta, síťová karta, zvuková karta, wi-firouter, modem
+
+2) Co znamená pojem ERGONOMIE? Popište jej na některých konkrétních zařízeních
+
+-Ergonomie je vědní obor, který komplexně a systémově řeší systém člověk - technika - prostředí s cílem optimalizovat psychicko-fyzickou zátěž člověka a zajistit rozvoj jeho osobnosti při maximální efektivitě jeho činnosti.
+-Např. jaká je ideální poloha při pracování na počítači, jak správně držet myš, jaká je ideální vzdálenost monitoru od hlavy atp. (více zde)
+
+3) Jaké znáte druhy tiskáren? Jak tyto tiskárny fungují? Vyberte dvě nejčastěji používané a porovnejte jejich výhody a nevýhody mezi sebou.
+
+-Jehličková - řada 8, 9 nebo 24 jehliček je umístěna v tiskové hlavě, která projíždí nad papírem kolmo na směr jeho posunu. Jehličky propisují přes barvící pásku na papír jemné body, z kterých se skládají písmena a obrázky. Tyto tiskárny mají velmi nízké náklady na tisk a mohou vytvářet kopii průpisem (přes kopírák). Mohou se tak například tisknout mzdové lístky ve speciálních zalepených obálkách. Další výhodou je, že tisková páska se opotřebovává postupně a nedojde najednou. Stejně tak je často používán "nekonečný" papír s boční perforací, který může být tenčí (a tím i levnější) a jeho vedení tiskárnou je spolehlivější. Nevýhodou je větší hlučnost, horší kvalita tisku a u levnějších modelů nízká rychlost tisku.
+-Termální (tepelné) - tiskne se pomocí tepla
+přímý tisk - tisková hlava je tvořena malými odpory s malou tepelnou setrvačností - výhodou je, že jediný spotřební materiál je papír, nevýhodou je vyšší cena papíru a malá stabilita tisku, často se používají v supermarketech, rychle a potichu tisknou. Tato metoda tisku se používala ve faxech (dnes obvykle nahrazeno inkoustovým nebo laserovým tiskem)
+termotransferové - jedná se vlastně o sublimační tisk, princip je stejný jako u přímého termálního tisku, jen je mezi hlavou a papírem speciální termotransferová fólie, ze které se barva teplem přenese na potiskované medium, kterým může být běžný papír. Jedno- i vícebarevný tisk se používá v tiskárnách na potisk štítků (Dymo), plastových karet nebo při tisku fotografií ve vysoké kvalitě
+
+-Inkoustové (ink-jet printer) - tisková hlava tryská z několika desítek mikroskopických trysek na papír miniaturní kapičky inkoustu
+Termické - tisková hlava pracuje s tepelnými tělísky, které zahřívají inkoust. Při zahřátí vznikne v trysce bublina, která vymrští inkoustovou kapku na papír
+Piezoelektrické - tisková hlava pracuje s piezoelektrickými krystaly. Krystal je destička, která je schopna měnit svůj tvar. Funguje tedy jako mikroskopická pumpička, která je schopna vystřelit kapku na papír
+Voskové (tuhý inkoust) - princip se velmi blíží klasické inkoustové tiskárně, ale místo tekutého inkoustu se používá speciální vosk, který se po natavení vystřikuje mikrotryskami na papír. Tyto tiskárny jsou specifické tím, že dokáží namíchat barvu bodu i bez překryvných rastrů. Mají velmi živé podání barev a vyznačují se vysokou kvalitou výtisku
+
+-Laserové (laser printer) - pracují na stejném principu jako kopírky: laserový paprsek vykresluje obrázek na fotocitlivý a polovodivý, obvykle selenový válec, na jehož povrch se poté nanáší toner; toner se uchytí jen na osvětlených místech, obtiskne se na papír a na závěr je k papíru tepelně fixován (zažehlen teplem cca 180 °C a tlakem)
+
+-LED tiskárny (LED printer) - funguje na podobném principu jako laserová tiskárna: řada LED diod vykresluje obraz na fotocitlivý, tiskový válec (obvykle selenový), na jehož povrch se poté nanese toner, uchytí se na osvětlených místech, obtiskne se na papír a na závěr je k papíru tepelně fixován
+
+
+
+Samotná definice "HW - periferní zařízení" se týká fyzických zařízení, která jsou připojena k počítači nebo jinému elektronickému zařízení. Tato zařízení slouží k rozšíření funkcí a možností základního zařízení a umožňují uživatelům interagovat s počítačem nebo elektronickým zařízením.
+
+
+I. Vstupní zařízení:
+
+Klávesnice:
+
+Klávesnice je primárním vstupním zařízením pro zadávání textu a ovládání počítače.
+Existuje několik různých druhů klávesnic, jako je standardní QWERTY, ergonomické klávesnice s ohledem na pohodlí, herní klávesnice s dodatečnými funkcemi pro hráče nebo virtuální klávesnice na dotykových displejích.
+
+Myš:
+
+Myš je zařízení, které umožňuje pohyb kurzoru po obrazovce a vykonávání různých akcí.
+Existují optické myši, bezdrátové myši, herní myši s vyšší citlivostí a trackbally, které nahrazují kuličku pohybem prstu.
+
+Skener:
+
+Skener slouží k digitalizaci fyzických dokumentů nebo obrázků do elektronické podoby.
+Rozlišujeme různé druhy skenerů, jako jsou plošné skenery, které snímají dokumenty zespodu, průchozí skenery, které umožňují skenování knih nebo 3D skenery, které vytvářejí trojrozměrné modely objektů.
+
+Mikrofon:
+
+Mikrofon je zařízení, které převádí zvukové vlny na elektrické signály.
+Používá se pro nahrávání zvuku, hlasové ovládání, hlasové hovory nebo vytváření zvukových záznamů.
+
+II. Výstupní zařízení:
+
+Monitor:
+
+Monitor slouží k zobrazení grafických a textových informací.
+Existuje několik typů monitorů, včetně tradičních CRT monitorů, LCD monitorů, LED monitorů a modernějších OLED monitorů s vysokým kontrastem a rychlou odezvou.
+
+Tiskárna:
+
+Tiskárna převádí digitální data na tištěnou podobu na papír nebo jiné médium.
+Existují různé druhy tiskáren, jako jsou laserové tiskárny, které využívají laserový paprsek, inkoustové tiskárny, které používají inkoustové náplně, a specializované tiskárny pro tisk fotografií.
+
+Reproduktory:
+
+Reproduktory jsou výstupní zařízení pro reprodukci zvuku.
+Používají se pro poslech hudby, sledování filmů, hraní her a poskytují prostorový zvukový efekt.
+
+Projektor:
+
+Projektor promítá obraz z počítače nebo jiného zařízení na plátno nebo stěnu.
+Je hojně využíván pro prezentace, promítání filmů nebo projekci obrazu ve velkém formátu.
+
+III. Kombinovaná zařízení:
+
+A. Dotykové obrazovky:
+
+Dotykové obrazovky umožňují interakci s počítačem či jiným zařízením přímo dotykem na displej.
+Jsou využívány na tabletech, chytrých telefonech a dalších zařízeních s dotykovým ovládáním.
+
+B. Webkamera:
+
+Webkamera slouží k zachycení obrazu a zvuku a komunikaci přes internet.
+Používá se pro videohovory, videozáznamy, streamování a rozpoznávání obličejů.
+
+C. Joystick:
+
+Joystick je ovládací zařízení často používané při hrách, zejména veletavby a letových simulátorech.
+Umožňuje přesnou kontrolu pohybu v herním prostředí.
