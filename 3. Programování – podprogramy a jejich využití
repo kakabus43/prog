@@ -1,0 +1,40 @@
+Funkce jsou základním stavebním kamenem. Funkci v C musíme nejdříve deklarovat, tzn., že dáváme překladači vědět potřebné údaje funkce a až poté se můžeme pustit do definice
+Při volání funkce je provedeno několik kroků. Nejdříve je uložena adresa instrukce, na kterou se skočí po skončení provádění funkce. Pak se alokuje paměť pro formální parametry funkce, do kterých se následně zkopírují hodnoty parametrů skutečných
+Formální parametry jsou vlastně lokální proměnné, a tedy existují pouze po dobu vykonávání funkce a jsou viditelné pouze z těla funkce. Po skončení se tato paměť uvolňuje a jako výsledek volání funkce se použije její návratová hodnota
+Skutečné parametry jsou parametry nebo proměnné, které dosazujeme do funkcí při volání
+Předání parametru hodnotou je nejvyužívanější a nejjednodušší a tím, že dosadíme do funkce skutečné parametry, které se pak ve funkci přemění na formální. Dalším typem je předávání odkazem ? při realizaci volání funkce se do oblasti parametrů funkce ukládá pouze adresa, data se nekopírují a lze k nim tedy přistoupit i po opuštění funkce
+Existují pak funkce, které nevrací žádnou hodnotu, a těm se říká procedura. To znamená, že nemusí obsahovat ani vstupní parametry. Používají se často při dávkovém zpracování – např. každou hodinu zavoláme proceduru, která zpracuje objednávky, které se nashromáždily v databázi, a předá je do jiného systému
+Výhody rozhodně převyšují nevýhody. Realizací funkce a procedury v programu si zkracujeme dobu kódování a ladění a také přehlednost. Tím snížíme celkovou dobu vývoje
+Rekurze je funkce, která je volána ve svém těle samu sebe. Data, která jsou funkci předávána, se ukládají do tzv. zásobníku (vyhrazené místo v paměti)
+Velmi náročné na paměť a může dojít až ke zhroucení programu
+Klasickým příkladem na rekurzi je výpočet faktoriálu nebo třídění
+
+
+
+
+Podprogram je část kódu v programu, která slouží k vykonání určitého úkolu. Podprogramy jsou také známé jako funkce, procedury nebo metody, v závislosti na programovacím jazyce, který používáš.
+
+Existuje několik důvodů, proč se používají podprogramy:
+
+Modularita: Podprogramy umožňují rozdělení kódu do menších, samostatných částí. Tím se zjednodušuje programování a správa kódu. Každý podprogram může být napsán a testován nezávisle na zbytku kódu, což zvyšuje přehlednost a znovupoužitelnost.
+
+Opakování kódu: Pokud máš určitou část kódu, kterou chceš použít vícekrát, můžeš ji napsat jako podprogram a poté ho volat z různých míst v programu. To eliminuje potřebu opisovat stejný kód na více místech a zjednodušuje údržbu a aktualizace.
+
+Čitelnost a snadnější údržba: Použití podprogramů může zvýšit čitelnost kódu. Místo dlouhého bloku kódu můžeš použít volání podprogramu s vhodným názvem, který lépe popisuje, co se v daném úseku děje. To usnadňuje čtení kódu a jeho údržbu.
+
+Sdílení a znovupoužití kódu: Pokud máš napsaný podprogram, který řeší určitou funkcionalitu, můžeš ho znovu použít v různých projektech nebo částech programu. Tím se zvyšuje efektivita a rychlost vývoje.
+
+Při používání podprogramů musíš brát v úvahu předávání parametrů. Parametry jsou hodnoty nebo proměnné, které můžeš předat podprogramu, aby s nimi pracoval. Podprogramy mohou také vracet hodnoty zpět do volající části programu.
+
+Například, v jazyce Python by podprogram vypisující pozdrav mohl vypadat takto:
+
+python
+Copy code
+def pozdrav(jmeno):
+    print("Ahoj,", jmeno)
+
+# Volání podprogramu
+pozdrav("Jan")
+V tomto příkladu je pozdrav() podprogram, který přijímá parametr jmeno. Po zavolání podprogramu s parametrem "Jan" 
+
+
