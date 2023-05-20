@@ -1,0 +1,77 @@
+Datová struktura je typ dat, který je nezávislý na vlastní implementaci. Jedním z druhů datových struktur je pole, které můžeme využít pro uložení řetězce. Pole také slouží jako reprezentace spojnicového grafu
+Pole je strukturovaný homogenní datový typ → mnoho proměnných stejného typu uložených pod stejným identifikátorem, ke kterým se přistupuje přes indexy. Pole může mít různou velikost, podle toho jak si to nadefinujeme
+Základní pole má rozsah, identifikátor a datový typ
+Definuje se: int pole[N]; a používá se pole[i] = j; Počítá se vždy od 0, proto první pole je pole[0] a poslední pole[N-1];
+Používá se, když je vhodné pod jeden identifikátor uložit více dat
+Pole můžeme využívat pro ukládání řetězců, ačkoliv si musíme dávat pozor na velikost, neboť na konci řetězce se ukládá ještě \0 – nulový bajt/znak, který nám právě určuje, že se jedná o řetězec a nikoliv pole s hodnotami
+Pole může být i vícerozměrné a to přidáním další prvek ? např. dvourozměrné. Takové pole můžeme využít na ukládání nebo vykreslování hracího pole, kde N zastupuje X-ovou hodnotu a J Y-ovou
+
+
+Programování je proces tvorby počítačových programů pomocí specifických jazyků, které počítač dokáže porozumět a vykonávat. Programování umožňuje vytvořit instrukce, které počítač provede a tím dosáhneme požadovaného výsledku.
+
+Datové struktury jsou způsoby, jak organizovat a ukládat data v počítači. Existuje mnoho různých typů datových struktur, které se používají pro různé účely. Některé z nejběžnějších datových struktur zahrnují pole, seznamy, fronty, zásobníky, stromy a grafy. Každá datová struktura má své vlastnosti a vhodnost pro různé druhy úloh.
+
+Pole je jednoduchá a základní datová struktura, která umožňuje ukládat a organizovat více prvků stejného typu. Pole má pevnou velikost, která se předem určí, a prvky v poli jsou uloženy v paměti po sobě jdoucím způsobem. Každý prvek v poli je přístupný pomocí indexu, který udává jeho pozici v poli. Indexování prvků začíná obvykle od nuly.
+
+Příklad pole v jazyce jako je Python by vypadal takto:
+
+css
+Copy code
+pole = [1, 2, 3, 4, 5]
+V tomto příkladu je vytvořeno pole s názvem "pole", které obsahuje pět prvků. Prvky v poli jsou čísla od jedné do pěti. Můžeš přistupovat k jednotlivým prvkům pole pomocí jejich indexu. Například, pole[0] by vrátilo hodnotu 1, protože první prvek v poli je na pozici 0.
+
+Datové struktury, jako je pole, jsou důležité, protože nám umožňují efektivně organizovat a manipulovat s daty v programu. Správné používání datových struktur je klíčové pro efektivní a efektivní programování.
+
+Doufám, že toto vysvětlení ti pomohlo lépe porozumět programování, datovým strukturám a polím. Pokud máš další otázky, neváhej se zeptat!
+
+
+
+
+
+User
+ Určete, co bude po skončení této části programu obsahovat 56. položka pole (pole[55])
+
+int i,pole[99];
+for (i=99;i>=0;i--) pole[99-i]=2*i;
+ChatGPT
+V programu je deklarováno pole pole s velikostí 99. Následně se pomocí cyklu for naplní toto pole hodnotami dvojnásobků proměnné i, kde i je inicializováno na 99 a postupně dekrementováno do 0.
+
+Po dokončení tohoto programového úseku bude obsahovat 56. položka pole (pole[55]) hodnotu 2 * (99 - 55) = 2 * 44 = 88.
+
+
+
+
+
+User
+Vytvořte v editoru python\ program, ve kterém
+a) načtete všech deset prvků pole od uživatele,
+b) najdete mezi deseti prvky nejmenší prvek a vypište ho.
+ChatGPT
+Samozřejmě! Zde je ukázkový kód v jazyce Python, který splňuje tvé požadavky:
+
+python
+Copy code
+# Načtení všech deseti prvků pole od uživatele
+pole = []
+for i in range(10):
+    prvek = int(input("Zadejte prvek pole: "))
+    pole.append(prvek)
+
+# Nalezení nejmenšího prvku v poli
+nejmensi_prvek = min(pole)
+
+# Výpis nejmenšího prvku
+print("Nejmenší prvek v poli je:", nejmensi_prvek)
+Tento program nejprve vytvoří prázdné pole pole, a poté pomocí cyklu for načte od uživatele vstupy pro všech deset prvků pole. Každý načtený prvek je přidán na konec pole pomocí metody append().
+
+Poté je použita funkce min() pro nalezení nejmenšího prvku v poli. Výsledek je uložen do proměnné nejmensi_prvek.
+
+Nakonec je nejmenší prvek vypsán pomocí příkazu print().
+
+Při spuštění programu se uživatel bude požádán, aby zadal deset prvků pole. Poté program najde nejmenší prvek a vypíše ho na výstupu.
+
+
+
+
+
+
