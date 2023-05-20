@@ -1,0 +1,76 @@
+Tabulkový kalkulátor je software nebo nástroj pro organizaci, manipulaci a analýzu dat pomocí tabulek.
+Tabulka je rozdělena do buněk, kde každá buňka může obsahovat text, čísla nebo vzorce.
+Každá buňka je jednoznačně identifikována sloupcem a řádkem.
+Uživatelé mohou zadávat data do buněk, jako jsou čísla, názvy, datumy atd.
+Tabulkový kalkulátor umožňuje provádět různé výpočty a manipulace s daty, například sčítání čísel, matematické operace, řazení a vyhledávání dat.
+Vzorce mohou být použity k provádění výpočtů na základě hodnot v buněkách. Vzorce mohou obsahovat matematické operace, funkce a logické operátory.
+Tabulkový kalkulátor automaticky přepočítává závislé vzorce, když se hodnoty v buněk změní.
+Tabulkové kalkulátory jsou široce používány pro různé úkoly, včetně tvorby rozpočtů, analýzy dat, tvorby grafů a správy účtů.
+Jsou využívány v podnikovém prostředí, výzkumu, financích, účetnictví a také pro osobní použití.
+
+
+
+Tabulkový kalkulátor je software nebo nástroj, který slouží k organizování, manipulaci a analýze dat pomocí tabulek. Hlavním cílem je umožnit uživatelům vytvářet a spravovat údaje a provádět výpočty na základě těchto dat.
+
+Tabulkový kalkulátor se skládá z tabulky, která je rozdělena do buněk, přičemž každá buňka může obsahovat text, čísla nebo vzorce. Každá buňka je jednoznačně identifikována kombinací sloupce a řádku. Například buňka v prvním sloupci a druhém řádku je označena jako buňka A2.
+
+V tabulkovém kalkulátoru můžete zadávat data do buněk, jako jsou čísla, názvy, datumy atd. Poté můžete provádět různé výpočty a manipulace s těmito daty. Například můžete sčítat čísla ve sloupci, vytvářet grafy na základě dat, provádět matematické operace, vyhledávat a řadit data, a mnoho dalšího.
+
+Tabulkový kalkulátor také umožňuje použití vzorců. Vzorec je matematický výraz, který může kombinovat různé buňky a provádět výpočty na základě hodnot v těchto buňkách. Vzorce mohou obsahovat různé matematické operace (jako je sčítání, odečítání, násobení, dělení), funkce (například SUM pro sčítání hodnot ve vybraném rozsahu buněk) a logické operátory (jako je IF pro podmíněné vyhodnocení). Když se hodnoty v buňkách změní, tabulkový kalkulátor automaticky přepočítává všechny závislé vzorce.
+
+Tabulkové kalkulátory jsou velmi užitečné pro různé úkoly, jako je vytváření rozpočtů, sledování dat, analýza trendů, tvorba grafů a mnoho dalšího. Jsou často používány v podnikovém prostředí, výzkumu, financích, účetnictví, a také doma pro osobní účely.
+
+
+
+
+Tabulkový kalkulátor má široké využití a slouží k mnoha účelům. Zde je seznam několika hlavních důvodů, proč se tabulkové kalkulátory používají:
+
+
+Organizace dat: Tabulkový kalkulátor umožňuje uživatelům organizovat a uspořádat data do systematického formátu. Lze vytvářet tabulky s řádky a sloupci, což usnadňuje sledování a správu informací.
+
+Výpočty a analýza: Tabulkové kalkulátory poskytují výkonné výpočetní funkce. Uživatelé mohou provádět matematické operace, statistické analýzy, vytvářet vzorce a aplikovat různé funkce na základě dat v tabulkách. To umožňuje provádět složité výpočty a analyzovat data s vysokou přesností.
+
+Finanční plánování a účetnictví: Tabulkové kalkulátory jsou často používány pro tvorbu rozpočtů, sledování finančních údajů a účetnictví. Uživatelé mohou vytvářet finanční tabulky, sledovat příjmy a výdaje, provádět výpočty daní a analyzovat finanční výkazové položky.
+
+Datová analýza a reporting: Tabulkový kalkulátor nabízí nástroje pro analýzu dat a tvorbu reportů. Uživatelé mohou vytvářet grafy, diagramy a pivotální tabulky pro vizualizaci dat a získání užitečných poznatků z rozsáhlých souborů dat.
+
+Projekty a plánování: Tabulkové kalkulátory lze použít pro plánování a sledování projektů. Uživatelé mohou vytvářet časové osy, sledovat úkoly, termíny a zdroje, a vytvářet rozvrhy prací.
+
+
+Některé z nejznámějších tabulkových kalkulátorů jsou:
+
+Microsoft Excel: Excel je velmi populární tabulkový kalkulátor od společnosti Microsoft a je součástí balíku Microsoft Office.
+Google Sheets: Google Sheets je webový tabulkový kalkulátor nabízený jako součást služby Google Drive.
+LibreOffice Calc: Calc je součástí open-source kancelářského balíku LibreOffice.
+Apple Numbers: Numbers je tabulkový kalkulátor vyvinutý společností Apple pro operační systém macOS a iOS.
+Základní vlastnosti tabulkového kalkulátoru zahrnují:
+
+Tabulka se skládá z buněk uspořádaných do sloupců a řádků.
+Každá buňka může obsahovat text, čísla, datumy, vzorce nebo funkce.
+Vzorce umožňují provádět výpočty na základě hodnot v jiných buňkách.
+Výsledky se automaticky aktualizují, když jsou změněny vstupní hodnoty.
+Tabulkové kalkulátory poskytují různé matematické operace, funkce a možnosti formátování dat.
+Grafy a diagramy mohou být vytvořeny pro vizualizaci dat.
+Data lze filtrovat, třídit a analyzovat pomocí různých nástrojů.
+Tyto vlastnosti umožňují uživatelům efektivně pracovat s daty, provádět výpočty a získávat užitečné informace z velkých souborů dat.
+
+
+
+• Absolutní adresa je odkaz směřující stále na stejné buňky. -Absolutní adresování umožňuje vzorci pevně odkazovat na konkrétní buňky bez ohledu na relativní polohu buněk. Používá se pro zachování stejné reference na buňku při kopírování nebo přemisťování vzorce.
+• Relativní adresa je odkaz přizpůsobující se nové pozici. - Relativní adresování je výchozím způsobem adresování buněk v Excelu. Při použití relativní adresace vzorec odkazuje na relativní polohu buněk vzhledem k buňce, ve které je vzorec zapsán.
+
+
+
+Určitě! Relativní adresování a absolutní adresování jsou způsoby, jak určit, na kterou buňku se odkazuje ve vzorci v Excelu.
+
+Relativní adresování: Při relativním adresování vzorec odkazuje na buňku vzhledem k buňce, ve které je vzorec napsán. Například, pokud ve vzorci odkazuji na buňku "o jednu buňku dole", vzorec se při kopírování automaticky přizpůsobí nové poloze.
+
+Absolutní adresování: Při absolutním adresování vzorec pevně odkazuje na určitou buňku, nezávisle na tom, kde je vzorec napsán nebo kopírován. Vzorec si tak zachová stejnou referenci na buňku.
+
+Pro jednoduchý příklad uvažujme vzorec, který sčítá obsah dvou buněk.
+
+Při relativním adresování by vzorec, který sčítá buňky A1 a B1, v buňce C1 vypadal jako "=A1 + B1". Pokud bychom tento vzorec zkopírovali do buňky C2, přizpůsobí se automaticky a změní se na "=A2 + B2".
+
+Při absolutním adresování by vzorec v buňce C1 vypadal jako "=$A$1 + $B$1". Při kopírování do buňky C2 by se vzorec nezměnil a stále by odkazoval na buňky A1 a B1.
+
+Relativní adresování je výchozím nastavením a je vhodné, pokud chceme, aby se vzorec automaticky přizpůsobil, když je kopírován do jiných buněk. Absolutní adresování se používá, když chceme, aby se vzorec odkazoval vždy na stejnou buňku, bez ohledu na umístění vzorce.
