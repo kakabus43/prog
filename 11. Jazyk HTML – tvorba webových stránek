@@ -1,0 +1,143 @@
+Hyper Text Markup Language je značkovací jazyk, který se používá pro vytváření webových stránek. Vytváří se do tzv. HTML elementů, které se skládají z tagů (značek) uzavřené v úhlových závorkách < a >. Například <html>. Většinou HTML tagy jsou párové – to znamená, že se musejí zakončovat stejným tagem s lomítkem na začátku (např <h1> a </h1>). Existují také tagy, které stojí o samotě (nepárové) a to jsou např. <img> či <br>.
+HTML elementy tvoří základní stavební jednotkou všech webových stránek. HTML umožňuje obrázky a objekty být vloženy a použity pro tvorbu interaktivních formulářů a to nám poskytuje vytvářet strukturovaný dokument do nadpisů, odstavců, seznamů, odkazů anebo taky do citací. Je možné také vložit skripty napsané v Javascriptu, který ovlivňuje chování webové stránky.
+Tagy můžeme rozdělit do
+Strukturální – rozvrhují strukturu dokumentu. Příkladem je třeba <p> či nadpisy
+Popisné - popisují obsahu prvku. Příklad je <title>
+Stylistické - určují vzhled prvku při zobrazení. Např b, i, u
+Tagy můžou být charakterizovány vlastnostmi (atributy). Tyto atributy poskytují prohlížeči informace o tom, jak by se měl tag zobrazit nebo chovat. Skládají se z názvu a hodnoty vzájemně oddělené rovnítkem „=“.
+Např. <body bgcolor=“red“>
+Atributy, které může mít každý HTML tag, jsou většinou ty, které nám udává informace, jak by se měl chovat nebo nám poskytuje název pro pozdější práci třeba ve formuláři či javascriptu. To jsou například atributy: class, id, style, name.
+Jazyk HTML je non-case sensitive. To znamená, že nezáleží na velikosti znaků. Tedy pokud napíšete <html>, tak je to totéž co <HTML>. V jediném případě kdy záleží, je při zápisu URL, v javascriptu nebo u zápisu CSS stylů.
+Znakové entity vznikly pro jeden specifický účel. Některé znaky jsou chápany jako součástí HTML jazyka (úhlové závorky) a proto se nemusejí na stránce normálně zobrazit. Znakové entity jsou zapisovány jako sekvence znaků a ten začíná & (ampersand).
+HTML dokument je skládán z vícero HTML elementů. Mimo to, může obsahovat DTD direktivy, komentáře pro programátora, javascript či kaskádové styly (CSS)
+Každá struktura HTML dokumentu začíná (nejlépe) DTD direktivem <!DOCTYPE html>, což sděluje prohlížeči, že otevřel HTML dokument. Po té kořenovým elementem <html> </html>. <head> </head> - poskytuje informace o dokumentu. <body> </body> - viditelná část stránky. Vypadá tedy nějak takto:
+<!DOCTYPE html>
+<html>
+<head>
+<title>Titulek stránky</title>
+</head>
+<body>
+<h1>Nadpis stránky</h1>
+<p>
+paragraf tedy obsah stránky
+</p>
+</body>
+</html>
+
+
+Webové prohlížeče tyto HTML dokumenty skládá do viditelných/slyšitelných webových stránek. To znamená, že nezobrazují HTML tagy a skripty, ale využívá je k interpretaci obsahu stránek.
+HTML můžeme psát v podstatě v čemkoliv. Ačkoliv existují i programy (editory), které zvládají barevnou syntaxi (barevně rozlišit tagy, vlastnosti a prostý text), napovídat tagy nebo tabování. Mezi nejznámější editory patří Notepad++, PSPad, Sublime Text nebo NetBeans. Existují také WYSIWYG editory a to je například Microsoft FrontPage
+
+Základní struktura HTML stránky: Každá HTML stránka začíná deklarací typu dokumentu (<!DOCTYPE html>) a obsahuje kořenový element <html>, uvnitř kterého se nacházejí elementy <head> a <body>.
+
+Nadpisy: Nadpisy (<h1>, <h2>, <h3> atd.) jsou používány k označení různých úrovní nadpisů na stránce. Použití správných nadpisů zlepšuje strukturu stránky a usnadňuje orientaci návštěvníkům.
+
+Odstavce a text: Textový obsah se obvykle vkládá do elementů <p> pro odstavce. Pro zvýraznění textu lze použít <strong> (tučný), <em> (kurzíva) nebo <u> (podtržený) tagy.
+
+Odkazy: Odkazy jsou v HTML vytvářeny pomocí elementu <a>. Musíš specifikovat atribut href, který určuje cílovou adresu odkazu. Odkaz lze vložit také na obrázek nebo jiný prvek.
+
+Obrázky: Pro vložení obrázku na stránku se používá element <img>. Musíš nastavit atribut src, který udává cestu k obrázku. Další volitelné atributy zahrnují alt (alternativní text, který se zobrazí, pokud obrázek nelze načíst) a width a height (šířku a výšku obrázku v pixelech).
+
+Seznamy: Seznamy se používají k zobrazení skupinovaných informací. Existují dva typy seznamů: neuspořádané (<ul>) a uspořádané (<ol>). Každý prvek seznamu je obvykle zapsán jako <li>.
+
+Tabulky: Pro strukturování dat se často používají tabulky. V HTML se tabulka vytváří pomocí elementů <table>, <tr> (řádek) a <td> (buňka). Můžeš také použít <th> pro hlavičky sloupců.
+
+Formuláře: Formuláře umožňují uživatelům zadávat a odesílat data. K vytvoření formuláře se používá element <form>, uvnitř kterého jsou různé vstupní prvky jako <input> (textové pole, tlačítka, zaškrtávací políčka atd.) a <textarea> (větší textové pole).
+
+Toto jsou jen některé základní prvky, které můžeš zahrnout do své prezentace o HTML. Je důležité si také uvědomit, že HTML je jazyk pro popis struktury webových stránek, ale pro jejich vzhled a interaktivitu se používá další jazyk nazývaný CSS (Cascading Style Sheets) a JavaScript.
+
+
+
+ebové stránky vznikají procesem, který zahrnuje několik kroků. Zde je zjednodušený popis toho, jak vznikají webové stránky:
+
+Návrh a plánování: Prvním krokem při vytváření webové stránky je definovat její cíl, obsah a strukturu. Musíš také zvážit design, uživatelskou přívětivost a další důležité faktory.
+
+Grafický design: Poté, co je plán hotový, vytváří se grafický design stránky, který zahrnuje rozložení, barvy, typografii a grafiku. Tento krok může zahrnovat použití grafického softwaru, jako je Adobe Photoshop nebo Sketch.
+
+Vývoj: Samotný vývoj webové stránky zahrnuje psaní kódu, který popisuje strukturu, obsah a vzhled stránky. Kódy jsou obvykle psány pomocí jazyků HTML, CSS a JavaScript (často se označuje jako front-end vývoj). HTML se používá k definování struktury stránky, CSS pro její vizuální styl a JavaScript pro interaktivitu a dynamiku.
+
+Backend vývoj: Pokud webová stránka vyžaduje interaktivitu nebo komunikaci s databází, je potřeba také backend vývoj. Backend vývoj zahrnuje psaní serverového kódu, který zpracovává požadavky od klientů (prohlížečů) a poskytuje jim odpovědi. Pro backend vývoj se používají různé jazyky, jako je Python, Ruby, PHP, Java a další.
+
+Testování a ladění: Po dokončení vývoje je důležité otestovat webovou stránku, aby se zjistily a opravily případné chyby a problémy s výkonem. Testování může zahrnovat kontrolu funkčnosti odkazů, ověřování správného zobrazení na různých zařízeních a prohlížečích a další.
+
+Nasazení: Poté, co je webová stránka plně otestována a funkční, je připravena k nasazení na webový server, který ji bude hostit. Nasazení zahrnuje nahrání všech souborů stránky na server a konfiguraci potřebných nastavení.
+
+Prohlížeč je software, který umožňuje uživatelům prohlížet webové stránky. Prohlížeči interpretují HTML, CSS a JavaScript kód a zobrazují stránky uživatelům. Některé známé prohlížeče jsou:
+
+Google Chrome
+Mozilla Firefox
+Safari (pro použití na zařízeních od společnosti Apple)
+Microsoft Edge (včetně starší verze Internet Explorer)
+Opera
+
+
+
+3) Co to je validace webových stránek, kdo ji provádí a k čemu slouží?
+
+Validace webových stránek je jinými slovy oprava chyb ve zdrojovém kódu webové stránky. Slouží tedy k opravení chyb ve zdrojovém kódu stránky. Validaci provádí webové nástroje (např. http://validator.webylon.info)
+
+
+
+Samozřejmě! Zde je příklad dvou navzájem propojených webových stránek s využitím různých HTML tagů:
+
+Stránka 1: index.html
+
+html
+Copy code
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Můj web - Domovská stránka</title>
+</head>
+<body>
+  <h1>Vítejte na mém webu!</h1>
+  
+  <h2>O mně</h2>
+  <p>Jsem nadšený webový vývojář a miluji tvorbu stránek.</p>
+  
+  <h2>Mé oblíbené zvíře</h2>
+  <p>Mým oblíbeným zvířetem je pes. Jsou tak roztomilí!</p>
+  
+  <h2>Kontakt</h2>
+  <p>Pro více informací mě můžete kontaktovat na <a href="mailto:info@mujweb.cz">info@mujweb.cz</a>.</p>
+  
+  <a href="page2.html">Přejít na stránku 2</a>
+</body>
+</html>
+Stránka 2: page2.html
+
+html
+Copy code
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Můj web - Stránka 2</title>
+</head>
+<body>
+  <h1>Stránka 2</h1>
+  
+  <h2>Zajímavé obrázky</h2>
+  <img src="obrazek1.jpg" alt="Obrázek 1" width="300" height="200">
+  <p>Tady je obrázek úžasné přírody.</p>
+  
+  <h2>Seznam</h2>
+  <ul>
+    <li>První položka seznamu</li>
+    <li>Druhá položka seznamu</li>
+    <li>Třetí položka seznamu</li>
+  </ul>
+  
+  <h2>Odstavce a zalomení řádku</h2>
+  <p>Toto je první odstavec.</p>
+  <p>Toto je druhý odstavec. <br>
+  A zde je zalomení řádku v rámci tohoto odstavce.</p>
+  
+  <a href="index.html">Přejít zpět na domovskou stránku</a>
+</body>
+</html>
+
+
+
+
+
+
