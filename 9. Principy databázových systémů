@@ -1,0 +1,75 @@
+Databáze: Databáze je strukturovaná sbírka dat, která je organizována tak, aby byla snadno přístupná, spravovatelná a aktualizovatelná. Databáze slouží k ukládání informací, jako jsou text, čísla, obrázky nebo zvukové záznamy.
+Databáze je virtuální místo, do kterého se ukládá určitá množina dat (informací). Databáze se skládá z tabulek. Tabulky se skládají ze záznamů. Tato data jsou archivována, lze s nimi manipulovat a spravovat je. S nadsázkou se dá říci, že se jedná o elektronickou kartotéku
+Relační model: Relační model je základním konceptem v databázových systémech. V tomto modelu jsou data organizována do tabulek, které se nazývají relace. Každá relace má schéma, které definuje názvy sloupců a jejich datové typy.
+
+Relační algebra: Relační algebra je soubor operací, které se používají k manipulaci s daty v relačním modelu. Tyto operace zahrnují výběr, projekci, spojení, rozdíl a další.
+
+SQL: Structured Query Language (SQL) je standardní jazyk pro práci s relačními databázemi. SQL umožňuje provádět operace jako vkládání, aktualizaci, vyhledávání a mazání dat.
+
+Normalizace: Normalizace je proces návrhu databáze s cílem eliminovat redundantní data a zajistit konzistenci. Normalizace se provádí pomocí sady pravidel, které rozdělují tabulky do menších, lépe strukturovaných tabulek.
+
+Indexování: Indexování je technika používaná k rychlému vyhledávání dat v databázi. Indexy se vytvářejí na základě určitých sloupců v tabulce a zrychlují vyhledávání pomocí vytvoření dodatečné struktury dat.
+
+Transakce: Transakce jsou sekvence operací, které se provádějí jako jednotka a jsou buď provedeny úplně, nebo vůbec. Transakce by měly být atomické (buď úplně provedeny nebo vůbec), konzistentní (zachovávají konzistenci dat), izolované (nemají vliv na jiné transakce) a trvalé (jsou trvale uloženy v databázi).
+
+Bezpečnost a zálohy: Databázové systémy poskytují mechanismy pro zajištění bezpečnosti dat, jako je autentizace, autorizace a šifrování. Důležitou součástí je také pravidelné zálohování dat, aby bylo možné obnovit databázi v případě havárie.
+
+Dotazování a optimalizace: Dotazování je proces vyhledávání a manipulace s daty v databázi. Databázové systémy obsahují optimalizační mechanismy, které analyzují dotazy a snaží se najít nejefektivnější způsob, jak je vykonat.
+
+Distribuované databáze: Distribuované databáze jsou systémy, které ukládají data na více počítačích nebo serverech. Tyto systémy umožňují efektivní sdílení a replikaci dat mezi různými místy.
+
+
+
+Příklad normalizace:
+
+Mějme tabulku "Zákazníci" s následujícími sloupci: ID, Jméno, Adresa, Město, Stát, PSČ.
+Vzhledem k tomu, že město, stát a PSČ jsou redundantní informace, můžeme normalizovat tabulku rozdělením na dvě tabulky: "Zákazníci" a "Adresy".
+Tabulka "Zákazníci" bude obsahovat sloupce ID a Jméno, a tabulka "Adresy" bude obsahovat sloupce ID, Adresa, Město, Stát, PSČ.
+Tímto způsobem jsme eliminovat redundantní data a zlepšili strukturu našeho schématu.
+Demonstrace indexování:
+
+Mějme velkou tabulku "Produkty" s tisíci záznamy.
+Proveďme vyhledávání produktu podle jeho kódu (sloupec "Kód").
+Bez indexu bychom museli procházet každý záznam a porovnávat kódy, což by bylo časově náročné.
+Vytvořme index na sloupci "Kód". To vytvoří strukturu, která umožňuje rychlé vyhledávání podle kódu.
+Nyní můžeme pomocí indexu rychle najít konkrétní produkt podle jeho kódu bez nutnosti procházet všechny záznamy.
+Demonstrace transakcí:
+
+Uvažujme bankovní systém, ve kterém chceme převést peníze z jednoho účtu na druhý.
+Tato operace by měla být atomická, což znamená, že buď se převod úspěšně provede, nebo se žádné změny neprovedou.
+Vytvoříme transakci, která obsahuje dvě operace: odebrání peněz z jednoho účtu a přidání peněz na druhý účet.
+Pokud některá z těchto operací selže (např. nedostatek prostředků na účtu), transakce bude zrušena a žádné změny nebudou provedeny.
+
+
+
+Databáze je virtuální místo, do kterého se ukládá určitá množina dat (informací). Databáze se skládá z tabulek. Tabulky se skládají ze záznamů. Tato data jsou archivována, lze s nimi manipulovat a spravovat je. S nadsázkou se dá říci, že se jedná o elektronickou kartotéku
+Existují tyto typy databází → Hierarchická databáze, síťová databáze, relační databáze, objektová databáze, objektově relační databáze, dokumentově orientovaná databáze
+Souborová databáze je složitá na prohledávání, avšak pokud víme, který soubor potřebujeme, je rychlejší; není jednoduché udržet integritu dat; není možné používat transakce, zamykat řádky atp.
+Relační databáze - většina dnešních databází pracuje na principu klient/server. Systém správy dat se nazývá DBMS (DataBase Management System)
+Objektové databáze - umožňují použití obdobných možností jako při objektovém programování. Jsou razantně náročnější na návrh a implementaci, nicméně jejich samotné použití je jednodušší a přirozenější oproti relačním databázím
+Každý záznam v tabulce musí být jednoznačně identifikován. Každý záznam by měl být unikátní díky souhrnu svých atributů. Tomuto souhrnu všech hodnot se říká tzv. superklíč
+Tabulka → běžná tabulka tvořena sloupci a řádky, zapisují se do ní data (informace), která se pak archivují do paměti relační databáze, tabulka reprezentuje nějaký objekt
+Sloupec (atribut) → je součástí tabulky; každý sloupec má přiřazený určitý datový typ (text, čísla, datum), identifikátor (název sloupce), rozsah (je upřesněn přímo typem)
+Řádek → jsou v něm zapsané přislušné informace, které musí být v souladu s atributy sloupce (ve sloupci s názvem příjmení napíši do řádku příjmení atd.), odpovídá jednomu výskytu objektu, který je modelován tabulkou
+Primární klíč → pole, které jednoznačně identifikuje libovolný záznam v tabulce (může být například ID); každá tabulka má mít právě jeden primární klíč; nesmí obsahovat NULL hodnotu
+Cizí klíč → udává vztah mezi dvěma tabulkami (jedna je primární, druhá je cizí); jedna hodnota z jednoho sloupce primární tabulky odkazuje na tu stejnou hodnotu ve sloupci cizí tabulky
+Integrita databáze → databáze vyhovuje zadaným pravidlům a omezením; týká se jednotlivých hodnot polí či kombinaci poli, unikátnosti pole (za splnění zadaných pravidel je zodpovědný systém řízení báze dat
+Relace → vztah mezi množinou prvků; logické vazby mezi tabulkami; základní konstruktor relačních databází
+Vztah 1:1 → jednomu záznamu v jedné tabulce odpovídá přesně jeden záznam v druhé tabulce (mnohdy bývá u nevhodně navržených databází), př. uživatel a zákazník
+1:N → jeden záznam v jedné tabulce odpovídá několika záznamům v druhé tabulce (velice často se používá u rozsáhlých databází), př. Jeden zákazník si objedná několik produktů
+N:M → více záznamů v jedné tabulce odpovídá více záznamům v druhé; k vytvoření této relace je zapotřebí vytvořit tabulky s relacemi 1:N a ty poté vzájemně propojit mezi sebou skrze třetí tabulku do vztahu N:M, př. Projekty a pracovníci na jednom nebo několika projektech
+Bez relace → např. tabulky v Excelu
+
+
+
+Relační model: Relační model je nejběžněji používaný databázový model. Založen je na konceptu relací (tabulek), které obsahují řádky (záznamy) a sloupce (atributy). Relační model je založen na teorii relací a nabízí standardní jazyk SQL pro manipulaci s daty.
+
+Hierarchický model: Hierarchický model organizuje data ve stromové struktuře, ve které jsou jednotlivé záznamy hierarchicky uspořádány. Každý záznam může mít jednoho nebo více potomků. Hierarchický model byl populární v minulosti, zejména v mainframe systémech.
+
+Síťový model: Síťový model je podobný hierarchickému modelu, ale umožňuje záznamy mít více rodičů. V síťovém modelu jsou vztahy mezi záznamy definovány pomocí ukazatelů (pointery). Tento model byl také populární v mainframe systémech, ale postupně byl nahrazen relačním modelem.
+
+Objektově orientovaný model: Objektově orientovaný model je založen na konceptech objektově orientovaného programování. Data jsou organizována jako objekty, které mají atributy a metody. Objektově orientované databáze (OODB) umožňují ukládat a manipulovat s objekty přímo, což je užitečné pro aplikace, které využívají objektový přístup.
+
+Dokumentový model: Dokumentový model je zaměřen na ukládání a manipulaci s dokumenty, jako jsou JSON nebo XML. Data jsou organizována jako kolekce dokumentů, které mohou obsahovat různé struktury a hierarchie. Dokumentové databáze jsou často používány v moderních webových aplikacích.
+
+Kolumnový model: Kolumnový model organizuje data na základě sloupců (jako v relačním modelu), ale ukládá data kolumnově, což umožňuje efektivní kompresi a analýzu. Kolumnové databáze jsou vhodné pro analytické úlohy, kde je důležité rychlé získání agregovaných dat.
