@@ -1,0 +1,130 @@
+1) Popište ve stručnosti vývoj počítačů od prehistorie až po současnost
+
+-Předchůdci (Abakus, logaritmické tabulky, mechanické kalkulátory)
+První programovatelné stroje (děrné štítky)
+Nultá generace
+První generace (ENIAC, MANIAC)
+Druhá generace
+Třetí generace
+Čtvrtá generace (IBM System 360)
+-Abakus (vznik před cca 5000 lety) - jednoduchá počítadla (většinou destičky, které usnadňovaly početní operace, později klasická kuličková počítadla)
+-Logaritmické tabulky (17. století) - pro jejich vývoj byla použita nová matematická metoda, která pomocí sčítání a odčítání s využitím logaritmů umožnila realizaci násobení a dělení - vzápětí vznik logaritmického pravítka (skládalo se ze dvou vzájemně pohyblivých částí - výpočet součtem/rozdílem logaritmů čísel zobrazených na osách pravítka)
+-Mechanické kalkulátory (vznik cca 150 př. n. l.) - první kalkulátor sloužil k výpočtu polohy Slunce a jeho mechanismus byl zřejmě založen na tom, že Země obíhá okolo Slunce
+-další kalkulátor (17. století) - uměl sčítat a odčítat šesticiferná čísla
+-další mechanický kalkulátor (19. století) - uměl sčítat, odčítat, násobit a dělit (pracoval v desítkové soustavě)
+-Děrné štítky (počátek 19. století) - převratný moment pro programování strojů
+
+1. GENERACE ELEKTRONICKÝCH POČÍTAČŮ: První počítač s názvem ENIAC byl vyroben v USA roku 1945. V poslední dobeˇ se objevují informace, že to byl první civilní počítač, protože podobné počítače byly vyrobeny již za 2. světové války za účelem vědeckých výpočtů pro výrobu atomové bomby. V ENIACu bylo použito 18000 elektronek. Jeho velikost by se mohla rovnat rozměrům basketbalového hřiště, byl chlazen 2 leteckými motory a vážil okolo 40 tun. Měl spotřebu energie jako malé město. Každý počítač měl svůj program, neexistoval software. Pamětˇtakového počítače byla 1 kB.
+2. GENERACE ELEKTRONICKÝCH POČÍTAČŮ: Byly vynalezeny polovodičové prvky (například tranzistory, diody apod.), (náhrada za elektronky) a tím došlo k úsporám energie, větší spolehlivosti, zmenšování a zrychlení. Paměť byla nahrávána na magnetické pásky s kapacitou 5MB. Její rozměry byly 400 metrů délky a 2,5 cm šířky. Započalo využívání operačních systémů, jazyka symbolických adres a první programovací jazyky.
+3. GENERACE ELEKTRONICKÝCH POČÍTAČŮ: Počítače 3. generace byly menší, poprvé se objevila podpora multitaskingu (programy vykonávané procesorem se střídají, takže se zdá, že jsou úkony zpracovávány najednou). Počítač dokázal v reálném čase reagovat na požadavky uživatele.
+4. GENERACE ELEKTRONICKÝCH POČÍTAČŮ: V roce 1968 došlo k další miniaturizaci součástek počítačů. Objevil se mikroprocesor, i ostatní součástky se čím dál více zmenšovaly a bylo tak odstartováno masové užívání počítaču. Na přelomu 70. a 80. let začaly být počítače přístupné i pro domácnosti. První počítače Apple nebo Sinclair (které se sporadicky objevovaly i v tehdejším Československu) připomínaly trochu hračky, ale už v roce 1981 se objevil počítač firmy IBM, který dal základ dnešním nejrozšířenějším domácím počítačům (PC). Za téměř 30 let došlo díky miniaturizaci a k dalším inovacím, k neuvěřitelnému nárůstu výkonu počítačů a kapacit pamětí, stejně jako programového vybavení. Počítače se staly dostupné všem.
+
+2) Popište vývoj platformy IBM PC od počátků po dnešek - jak se vyvíjel hardware a operační systém na této platformě.
+
+(První počítač měl klávesnici, paměť pro ukládání dat a vestavěný monitor a byl představen roku 1975. 
+Měl sloužit k vědeckému řešení problémů. 
+Ještě se neřadil do platformy IBM PC, ale další modely na něm částečně stavěly.) 
+První model řady IBM PC měl 16bitovou platformu (x86 architektura: 286+ = 32b) a jeho architektura byla otevřená. 
+Tímto krokem vybídla IBM ostatní firmy k výrobě komponentů (do té chvíle si IBM vyráběla komponenty vždy sama) a tím pádem mohla i snížit náklady na počítač jako takový.
+Operační systém, který se jmenoval DOS (poté Windows 3.11, 95, 98, XP, Vista, 7) dodala společnost Microsoft.
+DOS poskytoval takové služby jako například přístup k souborům na disku, zobrazování znaků na obrazovce, čtení znaků z klávesnice apod. 
+Spuštěn mohl být nanejvýš jeden program.
+Firma IBM nechtěla na hardware vynakládat moc peněz, proto zveřejnila technické údaje o počítačích, aniž by si nárokovala licenční poplatky.
+Licence se vztahovala pouze na základní software v počítači (prodej licencí na firmware). 
+První přenosný IBM PC kompatibilní počítač byl představen v roce 1982 (byly vyráběny společnostmi Dell, HP,…). 
+Počítače nebyly schopny fungovat bez operačního systému. 
+K těmto počítačům mohl být připojen standartní televizor nebo RGB monitor. 
+Paměťové médium byla disketa nebo magnetofonová páska. 
+Na trh byl uveden jako domácí počítač, ale pro běžného uživatele byl příliš drahý. 
+Dalšími počítači z řady IBM byly počítače XT a XT/370
+
+3) Znáte jiné v současnosti používané platformy, než IBM PC? Popište je, pojmenujte je a srovnejte je s IBM PC.
+
+Macintosh (Mac OS)
+UNIX = IBM PC (Linux)
+Android
+
+4) Jak se vyvíjely programovací jazyky? Uveďte příklady programovacích jazyků v různých etapách vývoje počítačů.
+
+Programovací jazyky existovaly dříve než elektronické počítače, zmínky o nich sahají do 19. století.
+Teoretickým základem programování byl Lambda kalkul, který je chápán jako nejjednodušší programovací jazyk.
+První vyšší programovací jazyk byl vytvořen po roce 1940 pro německý počítač Z3, což byl první programovatelný počítač, který četl programy z děrných štítků (filmů).
+Dalším programovacím jazykem je Assembler, 
+dále BASIC, který byl implementován na domácích mikropočítačích.
+Dalšími jazyky jsou Pascal, C, Java, Python apod.
+
+PJ nízké úrovně – pracuje úzce s hardwarem
+PJ vysoké úrovně – je abstraktnější a pohodlnější pro uživatele
+
+
+
+
+Vývoj počítačů od prehistorie až po současnost je fascinující cesta plná technologických inovací a objevů. Zde je stručný přehled tohoto vývoje:
+
+Prehistorie a starověk: Již v prehistorických dobách lidé používali jednoduché výpočetní metody, jako například počítání na prsty nebo na kameny. V antickém Řecku byly používány mechanické zařízení, například abakus.
+
+17. a 18. století: V této době se objevily první mechanické počítače. Mezi nejznámější patří Pascalina od Blaise Pascal a analytický stroj od Charlese Babbageho, který však nebyl nikdy kompletně postaven.
+
+19.století: Byl vyvinut elektromechanický počítač, například Hollerithův stroj pro sčítání lidu, který využíval perforované karty pro zpracování dat.
+
+První polovina 20. století: V této době byly vyvinuty první elektronické počítače. Mezi nejznámější patří ENIAC, který byl sestaven v roce 1945. Byl obrovský a využíval elektronkovou technologii.
+
+1940-1950: Byla zahájena éra počítačů s programovatelnou pamětí a používajících tranzistory. Mezi tyto počítače patří UNIVAC I a EDVAC.
+
+1950-1960: Byly vyvinuty první počítače, které využívaly integrované obvody. Jedním z nich byl IBM 7090. Byl také vyvinut první operační systém pro počítače.
+
+1960-1970: V této době se objevily minipočítače, které byly menší, levnější a snadno použitelné pro malé firmy a výzkumné ústavy. V roce 1969 byla vyvinuta ARPANET, předchůdce internetu.
+
+1970-1980: Objevil se první mikroprocesor, což umožnilo vývoj mikropočítačů a osobních počítačů. Například v roce 1975 byl uveden na trh první osobní počítač, Altair 8800.
+
+1980-1990: Byly vyvinuty první domácí počítače s grafickým uživatelským rozhraním, například Apple Macintosh a Microsoft Windows.
+
+1990-2000: V této době se rozvinul internet a World Wide Web. Byly vyvinuty rychlejší a výkonnější počítače. Mobilní telefony se začaly stávat běžným zařízením.
+
+2000-současnost: Vývoj pokračuje směrem k menším, výkonnějším a mobilnějším zařízením. Cloudové služby, umělá inteligence a internet věcí (IoT) jsou významné trendy v současnosti.
+
+
+2) Popište vývoj platformy IBM PC od počátků po dnešek - jak se vyvíjel hardware a operační systém na této platformě.
+
+ChatGPT
+Platforma IBM PC (Personal Computer) se stala jedním z nejvlivnějších a nejrozšířenějších počítačových platforem od svého uvedení na trh v roce 1981. Zde je přehled vývoje hardwaru a operačního systému na platformě IBM PC od počátků po současnost:
+
+Počátky (1981-1984):
+
+V roce 1981 IBM představilo první IBM PC s procesorem Intel 8088 a operačním systémem MS-DOS 1.0 od společnosti Microsoft.
+Tato první generace IBM PC měla omezené možnosti grafiky a zvuku a především byla určena pro firemní a profesionální trh.
+
+Rozšíření a standardizace (1984-1987):
+
+V roce 1984 byla představena platforma IBM PC/AT, která přinesla výkonnější procesor Intel 80286 a rozšířenou paměťovou architekturu.
+V této době se také začaly objevovat první klony IBM PC, které byly kompatibilní s hardwarovým a softwarovým standardem IBM.
+Operační systém MS-DOS se postupně vyvíjel a aktualizoval, například na verzi 3.0 (1984) a 4.0 (1988), což přineslo nové funkce a vylepšení.
+
+Růst a inovace (1987-1995):
+
+V roce 1987 byl uveden na trh procesor Intel 80386, který přinesl významné zvýšení výkonu a podporu pro víceúlohové prostředí.
+Grafická uživatelská rozhraní začala nabývat na důležitosti, přičemž se objevily operační systémy jako OS/2 od IBM a Windows od Microsoftu.
+Windows postupně získávaly na popularitě a v roce 1995 bylo vydáno revoluční Windows 95, které přinesly moderní grafické prostředí a podporu pro více hardwarových zařízení.
+
+Moderní éra (1995-dosud):
+
+Po roce 1995 se platforma IBM PC stala dominantním standardem v počítačovém průmyslu.
+Procesory Intel Pentium a jejich následovníci přinášejí stále vyšší výkon a nové technologické inovace.
+Operační systém Windows od Microsoftu se vyvíjí dál a jsou vydávány nové verze, jako Windows XP, Windows 7, Windows 10 atd.
+Paralelně se rozvíjí také operační systém Linux, který nabízí otevřený zdrojový kód a je široce využíván ve firemním a serverovém prostředí.
+Hardwarově se platforma IBM PC vyvinula z jednoduchého a omezeného počítače v roce 1981 na výkonné a víceúčelové zařízení s podporou grafiky, zvuku, sítí, periferií a různých rozhraní. Operační systémy se vyvíjely a zdokonalovaly, nabízely více funkcí, lepší grafické prostředí, správu souborů, podporu multitaskingu a dalších pokročilých funkcí.
+
+V současnosti je platforma IBM PC stále živá a používána po celém světě. Stále se vyvíjí nový hardwarový a softwareový ekosystém, který umožňuje zpracování a využití velkého množství dat, umělé inteligence, virtuální reality a dalších moderních technologií.
+
+
+3) Znáte jiné v současnosti používané platformy, než IBM PC? Popište je, pojmenujte je a srovnejte je s IBM PC.
+
+
+Apple Macintosh: Apple Macintosh, často označovaný jako Mac, je počítačová platforma vyvíjená společností Apple. Macintosh se vyznačuje vlastním hardwarovým a operačním systémem. Mac počítače mají intuitivní uživatelské rozhraní a jsou obecně považovány za vhodné pro kreativní práci, design a multimediální úpravy. Na rozdíl od IBM PC běží na odlišném procesorovém čipu (například Apple Silicon) a využívají operační systém macOS.
+
+Mobilní platformy (Android a iOS): Mobilní platformy, jako je Android a iOS, jsou určeny pro smartphony, tablety a další přenosné zařízení. Android je vyvíjen společností Google a je používán na zařízeních různých výrobců, zatímco iOS je vyvíjen společností Apple a je používán na jejich iPhonu a iPadu. Mobilní platformy se liší od IBM PC svou specifickou architekturou, omezenou velikostí a ovládáním na dotykové obrazovce.
+
+Chromebook: Chromebook je platforma vyvíjená společností Google, která se zaměřuje na cloudové služby a webové aplikace. Chromebooky jsou levné a jednoduché notebooky s operačním systémem Chrome OS, který je založen na Linuxu. Na rozdíl od tradičního IBM PC se spoléhají na internetové připojení a většinu činností provádějí prostřednictvím webového prohlížeče.
+
+HPC (High-Performance Computing) platformy: HPC platformy jsou určeny pro vysokovýkonné výpočetní úlohy a paralelní zpracování dat. Tyto platformy využívají výkonné superpočítače, včetně specializovaného hardwaru a softwaru, aby dosáhly vysokého výkonu při zpracování složitých výpočtů. HPC platformy jsou odlišné od běžných osobních počítačů, jako je IBM PC, a jsou navrženy pro specifické výpočetní úlohy ve vědeckém výzkumu, průmyslovém modelování a dalších oborech.
+
