@@ -1,0 +1,30 @@
+Makra jsou vlastně nástroje v Microsoft Office, které umožňují automatizovat různé úkoly a procesy, které by jinak trvaly hodně času, kdybychom je museli provádět ručně. To znamená, že když máme nějakou opakující se úlohu v programu Microsoft Word, Excel nebo PowerPoint, můžeme si vytvořit makro, které provede tuto úlohu za nás.
+Makro je v podstatě soubor instrukcí, kterými říkáme programu, co má dělat. Můžeme například nahrát sekvenci akcí, které se opakují, jako je například opakované formátování textu v Microsoft Word nebo vytváření tabulek v Microsoft Excel.
+Poté, co jsme nahráli naše makro, můžeme ho uložit a kdykoli v budoucnu spustit jediným kliknutím tlačítka. To nám ušetří mnoho času a zjednoduší naši práci.
+
+
+Makra v Microsoft Office můžeme zaznamenávat v programovacím jazyce Visual Basic for Applications (VBA). Jedná se o speciální jazyk, který byl vytvořen speciálně pro tvorbu makro v aplikacích Microsoft Office.
+VBA je založen na jazyce Basic, ale obsahuje mnoho rozšíření a funkcí specifických pro Microsoft Office, jako jsou například funkce pro manipulaci s dokumenty a tabulkami. VBA je také integrovaný přímo do Microsoft Office, což znamená, že nemusíme nic instalovat, abychom ho mohli používat.
+Jednou z výhod VBA oproti jiným programovacím jazykům je jeho jednoduchost. VBA je relativně snadné se naučit, což z něj dělá ideální nástroj pro uživatele, kteří nejsou programátoři, ale chtějí využít funkce makra. VBA také nabízí velké množství vestavěných funkcí, které zjednodušují tvorbu makra a zkracují čas potřebný k vytvoření kódu.
+Další výhodou VBA je, že se jedná o interpretovaný jazyk. To znamená, že když napíšeme makro, nemusíme ho kompilovat a vytvářet z něj samostatný spustitelný soubor. Místo toho můžeme kód přímo spouštět z aplikace Microsoft Office.
+Celkově VBA je velmi užitečný jazyk pro tvorbu makra v aplikacích Microsoft Office, protože je snadno použitelný, nabízí velké množství funkcí a je integrovaný přímo do aplikací.
+
+
+Makro je posloupnost příkazů a pokynů spojených do jednoho příkazu, pomocí kterého je možné provést příslušný úkol automaticky. Dají se použít prakticky ve všech aplikacích balíku MS Office (Word, Excel, PowerPoint…)
+Můžeme je použít například tam, kde chceme jednoduše provést nějaký úkol, který se častěji opakuje (např. ve Wordu formátování textu, vytváření standardních tabulek apod., v Excelu přepočet nějakých hodnot, vytváření výstupních sestav ze zadaných dat…
+V aplikaci MS Office spustíme funkci nazvanou „Záznam makra“ a všechny zadané příkazy se zaznamenají jako „program“, který můžeme potom kdykoliv spustit znovu. Pomocí správné maker pak můžeme již vytvořená makra upravovat a vylepšovat
+Makro mohu spustit pomocí správce maker. Často používaným makrům je možno přiřadit též klávesové zkratky. Je též možno nastavit, aby se makro spustilo automaticky při otevření dokumentu
+Veškerá makra jsou vytvářena v jazyku Visual Basic a veškeré úpravy je možno provádět pomocí prostředí Visual Basic (editor VBE)
+Visual Basic (VB) je do značné míry objektově orientovaný programovací jazyk používaný pro tvorbu aplikací ve Windows. Umožňuje vytvářet různé kategorie aplikací, např
+Kompletní uživatelské aplikace (EXE)
+Ovládací prvky ActiveX
+Dynamické knihovny (DLL)
+Formuláře nebo uživatelská rozhraní při práci s databázemi
+makra MS Office jsou zaznamenávána v prostředí VB a je možno je prostředky VB vytvářet a editovat
+
+
+
+1) Co to jsou makra a k čemu se v MS Office používají?
+
+Makro je posloupnost příkazů a pokynů spojených do jednoho příkazu, pomocí kterého je možné provést příslušný úkol automaticky. Můžeme je použít například tam, kde chceme jednoduše provést nějaký úkol, který se častěji opakuje (např. ve Wordu formátování textu, vytváření standardních tabulek apod., v Excelu přepočet nějakých hodnot, vytváření výstupních sestav ze zadaných dat.
+
