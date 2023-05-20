@@ -66,8 +66,64 @@ Nevýhody: Dostupnost omezena na oblasti s kabelovou infrastrukturou. Rychlost a
 Je důležité zvážit individuální potřeby a omezení, jako je dostupnost služeb v dané oblasti, rychlost a spolehlivost připojení a finanční náklady, při výběru nejvhodnějšího připojení k internetu.
 
 
+3) Kdo je provider a co dělá?
+
+Poskytovatel internetových služeb (Provider) je firma nebo organizace, která poskytuje připojení k internetu uživatelům. Provider je zodpovědný za dodávání a správu internetového připojení, které umožňuje uživatelům přístup k internetu a využívání různých online služeb.
+
+Funkce poskytovatele internetových služeb zahrnují následující:
+
+Připojení k internetu: Poskytovatel poskytuje fyzické nebo bezdrátové připojení, které umožňuje uživatelům připojit svá zařízení (např. počítače, telefony, tablety) k internetu.
+
+Šířka pásma a rychlost připojení: Poskytovatel poskytuje určitou šířku pásma a rychlost připojení, která ovlivňuje rychlost přenosu dat mezi uživatelem a internetem. Vyšší šířka pásma znamená větší rychlost a kapacitu pro přenos dat.
+
+IP adresy: Poskytovatel přiděluje uživatelům IP adresy, což jsou unikátní identifikátory, které umožňují zařízením komunikovat na internetu.
+
+Technická podpora: Poskytovatel zajišťuje technickou podporu pro své zákazníky. To zahrnuje řešení problémů s připojením, nastavením sítě, poskytováním informací o fakturaci a dalšími technickými otázkami.
+
+Správa sítě: Poskytovatel monitoruje a spravuje síť, aby zajistil její spolehlivost, bezpečnost a výkon. To zahrnuje údržbu infrastruktury, aktualizace softwaru, řešení síťových problémů a zabezpečení před hrozbami z internetu.
+
+Fakturace a platby: Poskytovatel zajišťuje fakturaci a správu plateb za poskytované internetové služby. To může zahrnovat měsíční poplatky za připojení, datové limity, případně dodatečné služby jako televize či telefon.
 
 
 
+4)Co je doména? Jaké činnosti provádí registrátor domény?
 
-Regenerate response
+Doména je identifikační název, který se používá k přístupu k webovým stránkám a dalším zdrojům na internetu. Jedná se o textový řetězec, který se skládá z názvu (např. "openai") a doménového rozšíření (např. ".com", ".org", ".cz", atd.). Domény slouží k překladu srozumitelného názvu do IP adresy, která je skutečnou identifikací webového serveru.
+
+Registrátor domény je organizace nebo společnost, která je pověřena správou a registrací doménových jmen v určitém doménovém prostoru (např. .com, .org, .cz). Jeho hlavní činnosti zahrnují:
+
+Registrace domény: Registrátor umožňuje uživatelům zaregistrovat novou doménu. To zahrnuje ověření dostupnosti domény, vyplnění registračních formulářů a zaplacení poplatku za registraci. Registrátor také spravuje informace o vlastnictví domény.
+
+Obnova domény: Domény mají obvykle omezenou platnost a je nutné je pravidelně obnovovat. Registrátor poskytuje možnost obnovit platnost domény, obvykle za poplatek.
+
+Správa DNS: Registrátor umožňuje uživatelům spravovat nastavení DNS (Domain Name System) pro své domény. To zahrnuje přidávání a upravování DNS záznamů, které řídí, kam bude doména směřovat (např. IP adresu webového serveru).
+
+Převod vlastnictví domény: Registrátor zprostředkovává převod vlastnictví domény mezi různými uživateli. To může zahrnovat změnu kontaktních údajů, změnu registrátora a převod vlastnických práv.
+
+Podpora a služby: Registrátor poskytuje technickou podporu a poradenství pro uživatele týkající se registrace a správy domén. Mohou také nabízet další služby, jako je ochrana soukromí (pro skrytí osobních údajů v databázi WHOIS) nebo služby prodeje expirovaných domén.
+
+
+
+5) Jaké znáte služby internetu a k čemu slouží?
+
+Internet nabízí širokou škálu služeb, které pokrývají různé oblasti komunikace, informací, zábavy, obchodu a mnoho dalšího. Zde je seznam některých hlavních služeb internetu a jejich využití:
+
+Webové prohlížeče: Služby jako Google Chrome, Mozilla Firefox nebo Microsoft Edge umožňují prohlížení webových stránek a přístup k informacím na internetu.
+
+E-mail: Služby jako Gmail, Outlook nebo Yahoo Mail umožňují odesílání, přijímání a správu elektronické pošty.
+
+Sociální sítě: Platformy jako Facebook, Instagram, Twitter nebo LinkedIn slouží k vytváření sociálních spojení, sdílení obsahu, komunikaci a sítění s ostatními uživateli.
+
+Instant messaging: Aplikace jako WhatsApp, Facebook Messenger, Skype nebo Slack umožňují okamžitou textovou, hlasovou a video komunikaci s lidmi po celém světě.
+
+Cloudové úložiště: Služby jako Google Drive, Dropbox nebo OneDrive umožňují uživatelům ukládat a sdílet své soubory a dokumenty v cloudu, což zajišťuje jejich dostupnost z různých zařízení a zabezpečení dat.
+
+Vyhledávače: Hledací nástroje jako Google, Bing nebo Yahoo umožňují vyhledávání informací na internetu pomocí klíčových slov a poskytují výsledky relevantních webových stránek.
+
+Online nakupování: Služby jako Amazon, eBay nebo AliExpress umožňují nakupování zboží a služeb online, zpravidla s možností srovnání cen a recenzí produktů.
+
+Streamování médií: Služby jako Netflix, YouTube, Spotify nebo Apple Music nabízejí streamování videí, hudby a podcastů, které uživatelé mohou sledovat a poslouchat online.
+
+Online bankovnictví: Bankovní instituce poskytují online platformy a aplikace, které umožňují správu bankovních účtů, převody peněz, placení účtů a další finanční transakce přes internet.
+
+Online rezervace a služby cestovního ruchu: Webové stránky a aplikace jako Booking.com, Airbnb nebo Expedia poskytují možnost rezervace ubytování, letenek, pronájmu vozidel a dalších cestovních služeb online.
