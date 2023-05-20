@@ -1,0 +1,43 @@
+ HTML, CSS a JavaScript - spolu tvoří základní pilíře moderní webové stránky. HTML se stará o strukturu a obsah, CSS se stará o vzhled a design, a JavaScript přidává interaktivitu a dynamiku.
+
+
+Kaskádové styly (v anglickém originále Cascading Style Sheets se zkratkou CSS) je jazyk pro popis způsobu zobrazení stránek napsaných v jazycích HTML, XHTML nebo XML. Hlavním smyslem je umožnit návrhářům oddělit vzhled dokumentu od jeho struktury a obsah
+Rozsáhlejší možnosti formátování. CSS má vlastnosti padding a margin. V HTML by bylo potřeba vytvořit složitou konstrukci vnořených tabulek.
+Jednodušší údržba webové prezentace. Pokud chceme změnit nějaký detail, jako třeba barvu nadpisu, nemusíme složitě procházet HTML kód nebo různé HTML šablony, ale můžeme změnit pouze jednu vlastnost v CSS souboru, který je přilinkován ke všem stránkám.
+Cachování stylů - webový prohlížeč si může soubor se styly uložit do cache paměti, čímž může být dosaženo zrychlení načtení stránky. Na druhou stranu při použití externího CSS souboru dochází k dalšímu HTTP požadavku navíc oproti tomu, když bychom použili buď online CSS nebo přímo formátování HTML. CSS vlastnosti jednotlivých elementů můžeme dynamicky měnit pomocí Javascriptu.
+S pomocí CSS můžeme jednoduše formátovat i jakýkoliv jazyk XML.
+Mohou také existovat různé styly pro různá výstupní zařízení.
+V kombinaci s Javascriptem mohou vzniknout účinné bookmarklety, které mohou různě vylepšovat vzhled stránky. Například odstranit všechny obrázky na pozadí, změnit pozadí na bílé a písmo na černé apod.
+Hlavní nevýhodou CSS je ne vždy dostatečná podpora v majoritních prohlížečích. Prohlížeče obsahují v implementaci CSS chyby a je někdy nesnadné napsat kód tak, aby se ve všech (resp. v běžných) prohlížečích výsledek zobrazil stejně. Situace se poslední dobou značně zlepšuje, mj. opravami chyb v prohlížečích a nástupem nových verzí Internet Exploreru, který byl ve své šesté verzi zdrojem častých chyb v CSS.
+
+
+3) Co to je v CSS blok? Jaké tagy se k tvorbě bloků využívají?
+
+Blok (v originále box) hraje ve formátování pomocí CSS velmi důležitou roli. Jedná se o obdélníkovou oblast, kterou zabírá prvek společně se svými "obalovými technologiemi", jako jsou rámečky a spol. Jádrem bloku je jeho obsah (content). Čili text, obrázek či něco podobného, co způsobilo, že blok vůbec vznikl. Kolem obsahu lze vytvořit rámeček (border). Často ovšem není vhodné, aby byl rámeček "nalepen" těsně na obsah. Proto se mezi nimi nachází výplň (padding) určující vzdálenost rámečku od obsahu bloku. A kolem rámečku pak ještě bývá okraj (margin).
+
+
+4) Co to je Javascript? K čemu se používá při tvorbě webových stránek?
+
+JavaScript je programovací jazyk, který se používá v internetových stránkách. 
+Zapisuje se přímo do HTML kódu, což je velká výhoda, protože je to jednoduché. 
+JavaScript je klientský skript. To znamená, že se program odesílá se stránkou na klienta (do prohlížeče) a teprve tam je vykonáván. 
+(Protikladem klientských skriptů jsou skripty serverové, které jsou vykonávány na serveru a na klienta jdou už jen výsledky.)
+Java je jazyk interpretovaný - nemusí se kompilovat, 
+objektový - využívá objektů prohlížeče a zabudovaných objektů, 
+závislý na prohlížeči - funguje ale ve většině prohlížečů, case sensitivní - záleží na velikosti písem v zápisu, syntaxí podobný jazykům C, 
+Java a podobným JavaScript je skriptovací jazyk, který umožňuje vytvořit hodiny, hodnotit data ve formuláři, počítat, dynamizovat data, umožňuje tvorbu všemožných prvků k oživení webu, přes blikající texty po jednoduché hry. 
+Základem dynamického webu je právě JavaScript. 
+Abyste mohli pracovat s JavaScriptem měli byste znát základy HTML. 
+JavaScript je závislý na prohlížeči (uživatel si může vypnout). 
+V různých verzích prohlížečů nemusí skript vždy korektně fungovat.
+
+
+CSS (Cascading Style Sheets) je jazyk používaný k popisu vzhledu a stylizaci webových stránek napsaných v HTML (Hypertext Markup Language). Zatímco HTML se zaměřuje na strukturu a obsah stránky, CSS se stará o prezentaci a design. Můžeš si představit CSS jako vrstvu, která se přidává na vrchol HTML a definuje, jak by měl obsah vypadat.
+
+S CSS můžeš nastavit různé styly, jako jsou barvy, velikosti písma, okraje, pozadí a mnoho dalšího. Definuješ styly pro různé HTML elementy pomocí selektorů. Selektor je způsob, jak určit, na které elementy se bude daný styl aplikovat. Například, pokud chceš změnit barvu nadpisu na stránce, můžeš použít selektor pro nadpis (obvykle <h1>, <h2>, atd.) a nastavit barvu pomocí vlastnosti CSS jako color: blue;.
+
+CSS pozicování se zabývá umístěním a rozmístěním prvků na stránce. Můžeš použít různé techniky a vlastnosti CSS pro pozicování prvků vzhledem k ostatním prvkům. Některé základní vlastnosti pro pozicování zahrnují position, top, left, right a bottom. Například, pokud chceš umístit obrázek na určité místo na stránce, můžeš použít vlastnosti position: absolute;, top: 100px; a left: 200px; pro určení jeho pozice.
+
+JavaScript je programovací jazyk, který se často používá na webových stránkách pro interaktivitu a dynamické chování. Je schopný manipulovat s obsahem stránky, reagovat na události a provádět složitější operace. Můžeš například použít JavaScript k vytvoření interaktivního formuláře, animacím, validaci dat a mnoha dalším věcem.
+
+Při používání JavaScriptu můžeš vytvářet funkce, proměnné, podmínky a cykly. Můžeš přistupovat k HTML prvkům pomocí JavaScriptu pomocí metody getElementById() nebo querySelector(), a upravovat jejich obsah, styly nebo reagovat na události jako kliknutí myší nebo stisk klávesy.
