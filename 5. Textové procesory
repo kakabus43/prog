@@ -1,3 +1,28 @@
+-Textový procesor je v informatice program (aplikace), který slouží k vytváření formátovaného textu. Textový procesor není sice ještě program pro DTP (neumí použít některá typografická pravidla), ale velmi se jim blíží
+-DTP – desktop publishing. Jedná se o tvorbu tištěného dokumentu za pomoci počítače. K tomu, aby mohl dokument vzniknout, je zapotřebí kromě počítače a obsluhy, obvykle DTP operátor nebo grafik, také sázecího počítačového programu
+
+-Na rozdíl od textových editorů, se kterými se často pletou, umožňují textové procesory měnit vzhled obsahu dokumentu (fonty, velikost písma, nadpisy…)
+-Text bez formátování obsahujíc jen čitelný obsah (tisknutelné znaky – písmena, čísla a další speciální znaky) se nazývá Prostý text. K jeho úpravě stačí jednoduché editory, které jsou dostupné ve všech platformách (Poznámkový blok ve Win a TextEdit na Mac OS)
+
+-Běžné textové procesory používají metodu WYSIWYG, takže uživatel na obrazovce vidí (téměř) přesně to, co se později bude tisknout na tiskárně
+-WYSIWYG – „what you see is what you get“. Jedná se o zkratku, která označuje způsob editace dokumentů v počítači, při kterém je verze zobrazená na obrazovce vzhledově totožná s výslednou verzí dokumentu
+-Současné nejpoužívanější textové procesory → Microsoft Word, OpenOffice.org Writer, WordPad
+
+-Styl je v podstatě jakási definice toho, jak má vypadat například odstavec běžného textu, nadpis (velikost a druh písma, mezera před a za). Styly umí řešit automatizovaně řadu typografických pravidel
+-Styly umožňují jednotnou a rychlou úpravu dokumentu, organizaci dokumentu (změna pořadí nebo významu kapitol), vytváření obsahu a rejstříku
+-Styly můžeme rozeznat na:
+   Styl odstavce – řídí nastavení a tím i vzhled celého odstavce, např. řádkování, orámování
+   Styl znaku – projeví se jen v označením bloku – formát z příkazu Písmo
+   Styl tabulky – slouží na komplexní formátování tabulky
+   Styl seznamu – slouží na formátování položek seznamu
+   Existují také webové textové procesory, které nám umožňují pracovat se vzhledem celkového textu. Využívají javascript. Např. TinyMCE. Velcí odpůrci WYSIWYG tomu avšak říkají WYSIWYNG (what you se eis what you never get)
+
+
+
+
+
+
+
 Textové procesory jsou softwareové nástroje určené pro tvorbu, úpravu a formátování textových dokumentů. Jsou široce využívány v různých oblastech, jako je byznys, vzdělání, věda a osobní potřeby. Nejznámějším textovým procesorem je Microsoft Word, ale existuje mnoho dalších alternativ, jako je Google Docs, Apple Pages nebo LibreOffice Writer.
 
 Textové procesory nabízejí uživatelům různé funkce a nástroje pro manipulaci s textem. Základní funkce zahrnují možnost psaní, editaci a ukládání dokumentů. Uživatelé mohou také upravovat formátování textu, jako je velikost písma, barva, zarovnání a odsazení. Další užitečné nástroje zahrnují automatickou kontrolu pravopisu a gramatiky, vkládání obrázků, tabulek a grafů, tvorbu obsahu, číselné a odrážkové seznamy, a mnoho dalšího.
