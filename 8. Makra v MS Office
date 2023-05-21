@@ -28,3 +28,21 @@ makra MS Office jsou zaznamenávána v prostředí VB a je možno je prostředky
 
 Makro je posloupnost příkazů a pokynů spojených do jednoho příkazu, pomocí kterého je možné provést příslušný úkol automaticky. Můžeme je použít například tam, kde chceme jednoduše provést nějaký úkol, který se častěji opakuje (např. ve Wordu formátování textu, vytváření standardních tabulek apod., v Excelu přepočet nějakých hodnot, vytváření výstupních sestav ze zadaných dat.
 
+4) V souboru 08.xls vytvořte makro, které po stisku klávesové zkratky Ctrl+Q označí všechny buňky na aktuálním listu obsahující záporné číslo žlutě a všechny buňky obsahující slovo ahoj červeně. Toto makro ať funguje pro všechny buňky na aktuálním listu (každý list má vždy 65536 řádků a 256 sloupců).
+
+Sub Makro1()
+'
+' Makro1 Makro
+'
+' Klávesová zkratka: Ctrl+q
+'
+For Each c In ActiveSheet.UsedRange.Cells
+    With c
+        If .Value < 0 Then
+            .Interior.Color = 65535
+        ElseIf .Value = "ahoj" Then
+            .Interior.Color = 255
+        End If
+    End With
+Next
+End Sub
