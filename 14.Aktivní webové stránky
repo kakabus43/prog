@@ -29,3 +29,72 @@ RS neboli CMS (Content Management System) je aplikace, která zajišťuje komple
 Základní funkce CMS → tvorba, modifikace a publikace dokumentů (článků); řízení přístupu k dokumentům, zpravidla se správou uživatelů a přístupových práv; správa souborů; správa diskusí či komentářů; správa obrázků či galerií; kalendářní funkce; statistika přístupů
 Výhody - zvýšení bezpečnosti, efektivita, zabránění zkopírování zdrojového kódujinými webovými vývojáři
 Nevýhody - internetové vyhledávače vytvářejí publikovaných HTML webových stránek, které byly v prvopočátku statické, vyhledávaní nemusí najít hledanou informaci
+
+
+
+
+
+
+
+
+♦ Webová stránka, která je animovaná (trochu vypadá jako prezentace), např. menu jsou obrázky dané na mapě (checkio.org)
+♦  Statické stránky se stahují, tak jak jsou
+♦  Jak se dělají aktivní stránky – skrze JavaScript, při „kliknutí“ se stránka znovu nenačítá, ale spouští funkci JavaScriptu, která je „vložena“ do HTML-> tato stránka se tedy jednou už stáhla a už nekomunikuje se serverem
+
+Redakční systém
+
+♦  Redakční systém je software zajišťující správu dokumentů webového obsahu.
+♦  Mezi funkce redakčního systému patří tvorba, editace a publikace dokumentů (článků), zpravidla prostřednictvím webového rozhraní (často s využitím online editoru), správa diskuzí a komentářů, souborů, obrázků, kalendářních funkcí, statistika přístupů apod.
+♦  Redakční systém se skládá z JÁDRA, DATABÁZE A ŠABLONY
+♦  Nejpoužívanější redakční systémy jsou WordPress, Webdone, Joomla! (stránky americké vlády) a Drupal
+Redakční systém
+
+jádro, databáze a šablona
+
+ 
+
+wordpress, drupal, moodle. fb
+ 
+
+napsaný v jazyce PHP
+všechno co něco zobrazuje je CSS
+Php a SQL -> skrze toto
+php zadá příkaz SQL -> skrze SQL se komunikuje s databází
+=> jádro cucá ínformace z databáze a zobrazuje je v šabloně
+
+Instalace redakčního systému:  (budu popisovat na příkladu s Wordpressem)
+♦  Stažení balíku souborů + rozbalení
+♦  Nyní je nutné soubory nahrát na web, tedy na webhosting kde bude web dostupný z internetu.
+♦  Soubory nahrajeme pomocí FTP klienta, nejčastěji se používá program Total Commander.
+♦  pomocí např. AMPPS lze z vlastního počítače udělat server
+♦   (FTP klient – Protokol používaný pro přenos souborů Vaší prezentace na diskový prostor u poskytovatele hostingových služeb, ze kterého budou Vaše stránky prezentovány)
+♦   Pokud máte doménu např. http://www.jannovak.cz a chce aby byl web dostupný na www.jannovak.cz, nahrejte soubory do hlavního adresáře.
+♦  Požadujete-li dostupnost například na adrese http://www.jannovak.cz/blog, nahrejte soubory do složky blog/.
+.
+♦  Nyní si do prohlížeče zadejte adresu vašeho blogu, tedy např.www.jannovak.cz.
+♦ Klikněte na: create a wp-config.php file through a web interface, následuje další stránka
+.
+♦ Na stránce musíte vyplnit údaje o databázi
+->  Databaze name: jméno databáze na kterou chcete nainstalovat
+->  User Name: uživatelské jméno pro přihlášení do databaze
+->  Password: heslo pro přihlášení do databáze
+->  Database Host: adresa MySQL serveru – ve většině případů to je „localhost“
+->  Table Prefix: nechejte „wp_“, toto nastavení slouží pro instalaci více WordPressů  WordPressu na jednu MySQL databázi
+.
+->  Klikněte na: Install WordPress.
+
+Více zde: http://www.cwordpress.cz/navody/navod-na- instalaci-wordpress- nejnovejsi-verze.html
+
+♦  MySQL a redakční systém – redakční systém využívá MySQL pro tvorbu databáze, která je nutná kvůli následnému vyplnění identifikačních údajů a pro následné ukládání dat
+
+♦  PHP a redakční systém – aplikace redakčního systému je naprogramovaná většinou v tomto skriptovacím jazyku
+
+♦  CSS a redakční systém – Díky CSS můžeme upravovat vizuální stránku redakčních systémů a CSS je nezbytný pro vytváření šablon
+
+ Více zde: http://www.elated.com/articles/cms-in- an-afternoon- php-mysql/
+
+Práce s redakčním systémem:
+♦  JavaScript je multiplatformní objektově orientovaný skriptovací jazyk
+♦  Nyní se používá jako interpretovaný programovací jazyk pro WWW stránky.
+♦ Často je už vložený do HTML kódu. Jsou jím obvykle ovládány interaktivní prvky, nebo vytvořeny animace a efekty obrázků.
+♦  Jeho syntaxe patří do rodiny C/C++/Java
