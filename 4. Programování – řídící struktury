@@ -2,36 +2,39 @@
 
 Sekvence:
 Sekvence je nejjednodušší řídící strukturou. Jedná se o postupné vykonávání jednotlivých příkazů nebo instrukcí v pořadí, v jakém jsou napsány. Program postupuje od prvního příkazu ke druhému, poté ke třetímu a tak dále. Jednotlivé příkazy se vykonávají po sobě bez ohledu na vstupy, výstupy nebo vnitřní podmínky programu.
+
 Příklad:
 
-Copy code
 Instrukce 1
 Instrukce 2
 Instrukce 3
+
 Podmínka:
 Podmínka umožňuje programu rozhodovat, kterou část kódu vykonat na základě splnění nebo nesplnění určité podmínky. Základní podmínkový příkaz je "if-else" (pokud-jinak). Program vyhodnotí podmínku a pokud je pravdivá (true), provede se kód uvnitř bloku "if". Pokud je podmínka nepravdivá (false), provede se kód uvnitř bloku "else" (jinak).
+
 Příklad:
 
-bash
-Copy code
 if podmínka:
     provedení kódu
 else:
     provedení jiného kódu
+
 Cyklus:
 Cyklus umožňuje opakovat určitou část kódu vícekrát, dokud je splněna určitá podmínka. Existuje několik typů cyklů, nejběžnějšími jsou "while" (dokud) a "for" (pro).
 Cyklus "while" opakuje vykonávání kódu, dokud je podmínka pravdivá.
+
 Příklad:
-bash
-Copy code
+
 while podmínka:
     provedení kódu
+
 Cyklus "for" je speciálně určený pro opakování kódu s proměnnou, která se mění v každé iteraci.
+
 Příklad:
-bash
-Copy code
+
 for proměnná in rozsah:
     provedení kódu
+
 Tyto tři řídící struktury mohou být kombinovány a vytvářet složitější programové algoritmy. 
 
 
