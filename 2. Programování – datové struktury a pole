@@ -75,3 +75,37 @@ Při spuštění programu se uživatel bude požádán, aby zadal deset prvků p
 
 
 
+
+Rád ti vysvětlím příklady jednotlivých datových struktur:
+
+Pole (Array): Pole je kolekce prvků stejného typu uložených na sobě jdoucích pozicích v paměti. Přístup k prvkům v poli je realizován pomocí indexů. Například v jazyce Python může vypadat takto:
+
+pole = [1, 2, 3, 4, 5]
+
+Seznamy (Lists): Seznam je datová struktura, která umožňuje ukládat prvky různých typů a dynamicky se měnit jejich velikost. Prvky seznamu jsou uspořádány a přístup k nim je možný pomocí indexů. Seznamy jsou flexibilnější než pole, protože umožňují přidávání, odebírání a měnění prvků. Například v jazyce Python:
+
+
+seznam = [1, 'Ahoj', 3.14, True]
+
+-Fronty (Queues): Fronta je datová struktura typu "first-in, first-out" (FIFO), což znamená, že prvky jsou vkládány na konec fronty a odebírány z jejího začátku. 
+   Příkladem může být fronta lidí čekajících ve frontě na pokladně.
+
+-Zásobníky (Stacks): Zásobník je datová struktura typu "last-in, first-out" (LIFO), což znamená, že poslední prvek, který byl vložen, je první, který bude odebrán.
+   Prvky jsou vkládány a odebírány z vrcholu zásobníku. Příkladem může být zásobník knih na stole.
+
+-Stromy (Trees): Strom je hierarchická datová struktura skládající se z uzlů spojených hranami. 
+   Každý uzel může mít libovolný počet potomků. Stromy se používají pro reprezentaci hierarchických vztahů, jako je například rodokmen, organizace nebo hierarchie souborů v počítačovém systému.
+
+-Grafy (Graphs): Graf je soubor uzlů, které jsou propojeny hranami.
+   Grafy se používají pro reprezentaci vzájemných vztahů mezi objekty.
+   Existují různé typy grafů, jako jsou orientované grafy (s hranami s jedním směrem) a neorientované grafy (s hranami obousměrnými). 
+   Grafy se používají například při modelování sociálních sítí nebo síťových struktur.
+
+
+
+
+
+
+
+
+
