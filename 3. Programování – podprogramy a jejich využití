@@ -1,3 +1,60 @@
+Samozřejmě! V Pythonu se podprogramy nazývají funkce. Funkce jsou bloky kódu, které slouží k vykonávání určitých úkolů a mohou být volány z jiných částí programu. Zde je vysvětlení podprogramů a jejich využití v Pythonu:
+
+Definice funkce: Funkce se definuje pomocí klíčového slova def, následované názvem funkce a závorkami obsahujícími případné parametry funkce. Například:
+
+
+def pozdrav(jmeno):
+    print("Ahoj,", jmeno)
+
+V tomto příkladu je funkce pozdrav definována s jedním parametrem jmeno.
+
+Volání funkce: Pro volání funkce použijeme její název, následovaný závorkami obsahujícími argumenty, které předáme funkci. Například:
+
+
+pozdrav("Jan")
+
+Tímto voláním jsme předali hodnotu "Jan" jako argument do funkce pozdrav.
+
+
+Návratová hodnota: Funkce může také vracet hodnotu pomocí klíčového slova return. Například:
+
+
+def secti(a, b):
+    return a + b
+
+Tato funkce secti přijímá dva parametry a a b a vrací jejich součet pomocí příkazu return.
+
+Modularita a znovupoužitelnost: Použití funkcí v Pythonu umožňuje rozdělit kód do menších, samostatných částí. To zlepšuje přehlednost, usnadňuje údržbu a znovupoužitelnost kódu. Funkce mohou být volány z různých částí programu a dokonce i z jiných souborů, pokud jsou importovány.
+Příklad využití funkcí v Pythonu:
+
+
+
+def pozdrav(jmeno):
+    print("Ahoj,", jmeno)
+
+def secti(a, b):
+    return a + b
+
+pozdrav("Jan")
+
+vysledek = secti(3, 5)
+print(vysledek)
+
+V tomto příkladu jsme nejprve definovali funkci pozdrav, která vypisuje pozdrav s předaným jménem. Poté jsme zavolali tuto funkci s argumentem "Jan". Dále jsme definovali funkci secti, která přijímá dva parametry a vrací jejich součet. Nakonec jsme tuto funkci zavolali s argumenty 3 a 5 a její návratovou hodnotu uložili do proměnné vysledek, kterou jsme vypsali
+
+
+
+
+
+
+
+
+
+
+
+
+MINH4fan:
+
 Funkce jsou základním stavebním kamenem. Funkci v C musíme nejdříve deklarovat, tzn., že dáváme překladači vědět potřebné údaje funkce a až poté se můžeme pustit do definice
 Při volání funkce je provedeno několik kroků. Nejdříve je uložena adresa instrukce, na kterou se skočí po skončení provádění funkce. Pak se alokuje paměť pro formální parametry funkce, do kterých se následně zkopírují hodnoty parametrů skutečných
 Formální parametry jsou vlastně lokální proměnné, a tedy existují pouze po dobu vykonávání funkce a jsou viditelné pouze z těla funkce. Po skončení se tato paměť uvolňuje a jako výsledek volání funkce se použije její návratová hodnota
